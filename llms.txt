@@ -1,0 +1,38 @@
+# Laksh Advani
+
+> Staff Applied Scientist at ServiceNow in Seattle. Works on the reliability of LLM agents: silent failures, verifying reasoning, and reading an agent's plan from its hidden states. 8+ years in applied ML.
+
+## Profile
+- Role: Staff Applied Scientist, ServiceNow (2024–present); previously Applied Scientist, Qualtrics (2021–2024)
+- Education: M.S. Computer Science, University of Colorado Boulder
+- Interests: LLM agents and verification; evaluation and LLM-as-judge; RLHF and preference optimization; efficient inference
+- Contact: laksh.edu@gmail.com
+
+## Links
+- [Website](https://lakshadvani.github.io/)
+- [Machine-readable profile (MCP-style tools)](https://lakshadvani.github.io/agent.json)
+- [Google Scholar](https://scholar.google.com/citations?hl=en&user=EBLv9hAAAAAJ)
+- [LinkedIn](https://www.linkedin.com/in/lakshadvani/)
+- [GitHub](https://github.com/lakshadvani)
+
+## Reviewing
+- NeurIPS 2026 Workshop IAB
+- NeurIPS 2026 Workshop Verify-Agents
+- ICML 2026 Workshop FAGEN
+
+## Publications
+- Title withheld during anonymous review — NAACL 2027 (ACL ARR) (under review)
+- Trajectory Guard — AAAI 2026 Workshop (published)
+- When Small Models Are Right for Wrong Reasons — AAAI 2026 Workshop (published)
+- Neuro-Symbolic Syllogistic Reasoning (SemEval-2026 Task 11) — SemEval 2026 (Top 3, Subtask 1)
+- Reading the Plan: Multi-Horizon Action Prediction from Frozen LLM Hidden States — NeurIPS 2026 Workshops (Accepted at 5 of 5 NeurIPS 2026 workshops)
+- Title withheld during anonymous review — AAMAS 2027 (under review)
+- Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP — ACL Anthology (published)
+
+## Selected projects
+- Agentic IT service management: Agents that resolve IT service requests end to end in production
+- Catching silent failures: Checks that flag when an agent claims success it didn't achieve
+- Reading the Plan: 75% fewer LLM calls via confidence gating
+- Post-training at scale: DPO, PPO and QLoRA pipelines for large language models
+- Neuro-symbolic syllogisms: Top 3, SemEval 2026 Task 11 Subtask 1
+- Domain LLMs at Qualtrics: GPT-4 parity on internal benchmarks, 80% lower operating cost on-prem

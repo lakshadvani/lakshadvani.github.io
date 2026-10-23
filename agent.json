@@ -1,0 +1,215 @@
+{
+  "schema": "mcp-style static tool manifest",
+  "note": "Read-only data mirroring the Model Context Protocol tools/list and tools/call shapes. This is a static file, not a live MCP server.",
+  "serverInfo": {
+    "name": "laksh-advani",
+    "version": "1.0.0",
+    "url": "https://lakshadvani.github.io/agent.json"
+  },
+  "tools": [
+    {
+      "name": "get_profile",
+      "description": "Who Laksh is: role, employer, location, research focus and links.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "result": {
+        "name": "Laksh Advani",
+        "title": "Staff Applied Scientist",
+        "employer": "ServiceNow",
+        "location": "Seattle, WA",
+        "experience_years": "8+",
+        "education": "M.S. Computer Science, University of Colorado Boulder",
+        "research": "Reliability of LLM agents: silent failures, verifying reasoning rather than only answers, and reading an agent's plan from its hidden states.",
+        "interests": [
+          "LLM agents and verification",
+          "Evaluation and LLM-as-judge",
+          "RLHF and preference optimization",
+          "Efficient inference"
+        ],
+        "links": {
+          "site": "https://lakshadvani.github.io/",
+          "scholar": "https://scholar.google.com/citations?hl=en&user=EBLv9hAAAAAJ",
+          "linkedin": "https://www.linkedin.com/in/lakshadvani/",
+          "github": "https://github.com/lakshadvani"
+        },
+        "reviewing": [
+          "NeurIPS 2026 Workshop IAB",
+          "NeurIPS 2026 Workshop Verify-Agents",
+          "ICML 2026 Workshop FAGEN"
+        ]
+      }
+    },
+    {
+      "name": "list_publications",
+      "description": "Papers with venue, year and status. Optional topic filter.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string",
+            "enum": [
+              "agents",
+              "eval",
+              "reasoning"
+            ]
+          }
+        }
+      },
+      "result": [
+        {
+          "title": "Title withheld during anonymous review",
+          "venue": "NAACL 2027 (ACL ARR)",
+          "year": 2026,
+          "status": "under review",
+          "topics": []
+        },
+        {
+          "title": "Trajectory Guard",
+          "venue": "AAAI 2026 Workshop",
+          "year": 2026,
+          "status": "published",
+          "topics": [
+            "agents"
+          ],
+          "url": "https://arxiv.org/abs/2601.00516"
+        },
+        {
+          "title": "When Small Models Are Right for Wrong Reasons",
+          "venue": "AAAI 2026 Workshop",
+          "year": 2026,
+          "status": "published",
+          "topics": [
+            "reasoning",
+            "eval"
+          ],
+          "url": "https://arxiv.org/abs/2601.00513"
+        },
+        {
+          "title": "Neuro-Symbolic Syllogistic Reasoning (SemEval-2026 Task 11)",
+          "venue": "SemEval 2026",
+          "year": 2026,
+          "status": "accepted",
+          "award": "Top 3, Subtask 1",
+          "topics": [
+            "reasoning"
+          ]
+        },
+        {
+          "title": "Reading the Plan: Multi-Horizon Action Prediction from Frozen LLM Hidden States",
+          "venue": "NeurIPS 2026 Workshops",
+          "year": 2026,
+          "status": "accepted",
+          "topics": [
+            "agents"
+          ],
+          "award": "Accepted at 5 of 5 NeurIPS 2026 workshops"
+        },
+        {
+          "title": "Title withheld during anonymous review",
+          "venue": "AAMAS 2027",
+          "year": 2027,
+          "status": "under review",
+          "topics": []
+        },
+        {
+          "title": "Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP",
+          "venue": "ACL Anthology",
+          "year": 2023,
+          "status": "published",
+          "topics": [
+            "eval"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "list_projects",
+      "description": "Selected production and research systems with headline results.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "result": [
+        {
+          "name": "Agentic IT service management",
+          "summary": "Agents that resolve IT service requests end to end in production"
+        },
+        {
+          "name": "Catching silent failures",
+          "summary": "Checks that flag when an agent claims success it didn't achieve"
+        },
+        {
+          "name": "Reading the Plan",
+          "result": "75% fewer LLM calls via confidence gating"
+        },
+        {
+          "name": "Post-training at scale",
+          "summary": "DPO, PPO and QLoRA pipelines for large language models"
+        },
+        {
+          "name": "Neuro-symbolic syllogisms",
+          "result": "Top 3, SemEval 2026 Task 11 Subtask 1"
+        },
+        {
+          "name": "Domain LLMs at Qualtrics",
+          "result": "GPT-4 parity on internal benchmarks, 80% lower operating cost on-prem"
+        }
+      ]
+    },
+    {
+      "name": "get_reading",
+      "description": "What Laksh is currently reading.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "result": [
+        {
+          "kind": "paper",
+          "title": "Meta²: Precomputing Reusable Knowledge for Online Harness Evolution in Long-Horizon Agents",
+          "authors": "Lingzhi Yuan et al.",
+          "url": "https://www.alphaxiv.org/abs/2610.meta2-online-harness-evolution"
+        },
+        {
+          "kind": "book",
+          "title": "The Law of the Sublime",
+          "authors": "Robert Greene"
+        }
+      ]
+    },
+    {
+      "name": "get_places",
+      "description": "Countries visited.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "result": [
+        "India",
+        "United States",
+        "Singapore",
+        "Malaysia",
+        "Indonesia",
+        "Canada"
+      ]
+    },
+    {
+      "name": "get_contact",
+      "description": "How to reach Laksh.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "result": {
+        "email": "laksh.edu@gmail.com",
+        "preferred_topics": [
+          "agent reliability",
+          "post-training",
+          "research collaborations"
+        ]
+      }
+    }
+  ]
+}
