@@ -21,12 +21,10 @@
 - ICML 2026 Workshop FAGEN
 
 ## Publications
-- Title withheld during anonymous review — NAACL 2027 (ACL ARR) (under review)
 - Trajectory Guard — AAAI 2026 Workshop (published)
 - When Small Models Are Right for Wrong Reasons — AAAI 2026 Workshop (published)
 - Neuro-Symbolic Syllogistic Reasoning (SemEval-2026 Task 11) — SemEval 2026 (Top 3, Subtask 1)
 - Reading the Plan: Multi-Horizon Action Prediction from Frozen LLM Hidden States — NeurIPS 2026 Workshops (Accepted at 5 of 5 NeurIPS 2026 workshops)
-- Title withheld during anonymous review — AAMAS 2027 (under review)
 - Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP — ACL Anthology (published)
 
 ## Selected projects

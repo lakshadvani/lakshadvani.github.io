@@ -59,13 +59,6 @@
       },
       "result": [
         {
-          "title": "Title withheld during anonymous review",
-          "venue": "NAACL 2027 (ACL ARR)",
-          "year": 2026,
-          "status": "under review",
-          "topics": []
-        },
-        {
           "title": "Trajectory Guard",
           "venue": "AAAI 2026 Workshop",
           "year": 2026,
@@ -105,13 +98,6 @@
             "agents"
           ],
           "award": "Accepted at 5 of 5 NeurIPS 2026 workshops"
-        },
-        {
-          "title": "Title withheld during anonymous review",
-          "venue": "AAMAS 2027",
-          "year": 2027,
-          "status": "under review",
-          "topics": []
         },
         {
           "title": "Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP",
