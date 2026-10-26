@@ -14,14 +14,14 @@
 - Agents and evals: Multi-agent orchestration, Tool-use RL environments, Context engineering, RAG, LLM-as-a-judge, Eval harness design, MCP, LangGraph
 - Infrastructure: PyTorch, TorchTitan, DeepSpeed, Distillation, Quantization, vLLM, Kubernetes, Argo, AWS
 
-## Publications (58 citations on Google Scholar)
-- From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents — ICML 2026 Workshop on Failure Modes in Agentic AI (28 citations)
-- Trajectory Guard: A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI — AAAI 2026 Workshop on Trusted Agents (14 citations)
-- When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents — AAAI 2026 Workshop on Trusted Agents (4 citations)
+## Publications
+- From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents — ICML 2026 Workshop on Failure Modes in Agentic AI
+- Trajectory Guard: A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI — AAAI 2026 Workshop on Trusted Agents
+- When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents — AAAI 2026 Workshop on Trusted Agents
 - Reading the Plan: Multi-Horizon Action Prediction from Frozen LLM Hidden States — NeurIPS 2026 Workshops — accepted at 5 of 5 workshops
-- lakshadvani at SemEval-2026 Task 11: A Neuro-Symbolic Approach to Content-Independent Syllogistic Reasoning — SemEval 2026 (1 citations) — Top 3, Subtask 1
-- Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP — GEM Workshop @ EMNLP 2023 (2 citations)
-- C1 at SemEval-2020 Task 9: SentiMix: Sentiment Analysis for Code-Mixed Social Media Text Using Feature Engineering — SemEval 2020 @ COLING (9 citations)
+- lakshadvani at SemEval-2026 Task 11: A Neuro-Symbolic Approach to Content-Independent Syllogistic Reasoning — SemEval 2026 — Top 3, Subtask 1
+- Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP — GEM Workshop @ EMNLP 2023
+- C1 at SemEval-2020 Task 9: SentiMix: Sentiment Analysis for Code-Mixed Social Media Text Using Feature Engineering — SemEval 2020 @ COLING
 
 ## Reviewing
 - NeurIPS 2026 Workshop IAB

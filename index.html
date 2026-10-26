@@ -274,10 +274,6 @@ section.band.alt{background:var(--alt)}
 .service li b{color:var(--ink);font-weight:600}
 
 /* research explorer */
-.rx-top{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:22px}
-.rx-top div{background:var(--alt);border-radius:var(--r-md);padding:16px 18px;display:flex;flex-direction:column;gap:2px}
-.rx-top b{font-size:1.9rem;font-weight:700;letter-spacing:-.04em;line-height:1.05;font-variant-numeric:tabular-nums}
-.rx-top span{font-size:.82rem;color:var(--muted)}
 .rx{background:var(--alt);border-radius:var(--r-lg);padding:10px}
 .rx-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
 .rx-tabs button{font:inherit;text-align:left;border:0;background:transparent;border-radius:14px;padding:12px 14px;cursor:pointer;display:flex;flex-direction:column;gap:2px;color:var(--ink);min-width:0}
@@ -378,8 +374,7 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
   .gw{grid-template-columns:1fr}
   .rx-panel{grid-template-columns:1fr;gap:22px;padding:22px;min-height:0}
   .rx-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .rx-top{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .skills{grid-template-columns:1fr}
+    .skills{grid-template-columns:1fr}
 }
 @media (max-width:600px){
   section.band{padding-block:60px}
@@ -567,12 +562,6 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
   <section class="band" id="publications">
     <div class="wrap">
       <div class="head"><p class="eyebrow">Research</p><h2>Papers, explained.</h2><p>Pick a paper to explore its main result. Numbers come straight from the papers.</p></div>
-      <div class="rx-top">
-        <div><b>7</b><span>papers</span></div>
-        <div><b>58</b><span>citations</span></div>
-        <div><b>5 / 5</b><span>workshop acceptances for <i>Reading the Plan</i></span></div>
-        <div><b>3</b><span>workshops reviewed for</span></div>
-      </div>
       <div class="rx">
         <div class="rx-tabs" id="rx-tabs" role="tablist" aria-label="Featured papers"></div>
         <div class="rx-panel" id="rx-panel" role="tabpanel"></div>
@@ -585,7 +574,6 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
         <button type="button" id="f-reasoning" data-f="reasoning" aria-pressed="false">Reasoning</button>
       </div>
       <ul class="pubs" id="pubs" style="background:var(--alt)"></ul>
-      <p class="rx-note">Citation counts from <a href="https://scholar.google.com/citations?hl=en&user=EBLv9hAAAAAJ">Google Scholar</a>, October 2026.</p>
       <div class="service">
         <div class="ed-l">Reviewing</div>
         <ul>
@@ -690,19 +678,19 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
 /* ---- Edit your content here ---- */
 const PUBS = [
   { year: 2026, tags: ["agents","eval"], title: "From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents", authors: "L. Advani",
-    venue: "ICML 2026 Workshop on Failure Modes in Agentic AI", cites: 28, links: [["arXiv","https://arxiv.org/abs/2606.09863"]] },
+    venue: "ICML 2026 Workshop on Failure Modes in Agentic AI", links: [["arXiv","https://arxiv.org/abs/2606.09863"]] },
   { year: 2026, tags: ["agents"], title: "Trajectory Guard: A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI", authors: "L. Advani",
-    venue: "AAAI 2026 Workshop on Trusted Agents", cites: 14, links: [["arXiv","https://arxiv.org/abs/2601.00516"]] },
+    venue: "AAAI 2026 Workshop on Trusted Agents", links: [["arXiv","https://arxiv.org/abs/2601.00516"]] },
   { year: 2026, tags: ["reasoning","eval"], title: "When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents", authors: "L. Advani",
-    venue: "AAAI 2026 Workshop on Trusted Agents", cites: 4, links: [["arXiv","https://arxiv.org/abs/2601.00513"]] },
+    venue: "AAAI 2026 Workshop on Trusted Agents", links: [["arXiv","https://arxiv.org/abs/2601.00513"]] },
   { year: 2026, tags: ["agents"], title: "Reading the Plan: Multi-Horizon Action Prediction from Frozen LLM Hidden States", authors: "L. Advani",
     venue: "NeurIPS 2026 Workshops", award: "Accepted at 5 of 5 workshops", links: [] },
   { year: 2026, tags: ["reasoning"], title: "lakshadvani at SemEval-2026 Task 11: A Neuro-Symbolic Approach to Content-Independent Syllogistic Reasoning", authors: "L. Advani",
-    venue: "SemEval 2026", award: "Top 3, Subtask 1", cites: 1, links: [] },
+    venue: "SemEval 2026", award: "Top 3, Subtask 1", links: [] },
   { year: 2023, tags: ["eval"], title: "Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP", authors: "W. Du, L. Advani, Y. Gambhir, D. Perry, P. Shiralkar, Z. Xing, A. Colak",
-    venue: "GEM Workshop @ EMNLP 2023", cites: 2, links: [["ACL Anthology","https://aclanthology.org/search/?q=Effective+Proxy+for+Human+Labeling"]] },
+    venue: "GEM Workshop @ EMNLP 2023", links: [["ACL Anthology","https://aclanthology.org/search/?q=Effective+Proxy+for+Human+Labeling"]] },
   { year: 2020, tags: [], title: "C1 at SemEval-2020 Task 9: SentiMix: Sentiment Analysis for Code-Mixed Social Media Text Using Feature Engineering", authors: "L. Advani, C. Lu, S. Maharjan",
-    venue: "SemEval 2020 @ COLING", cites: 9, links: [["ACL Anthology","https://aclanthology.org/search/?q=C1+at+SemEval-2020+Task+9"]] }
+    venue: "SemEval 2020 @ COLING", links: [["ACL Anthology","https://aclanthology.org/search/?q=C1+at+SemEval-2020+Task+9"]] }
 ];
 
 /* Put image files in a photos/ folder next to this page and fill in src + caption. */
@@ -731,7 +719,7 @@ const PHOTOS = [
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const pubsEl = document.getElementById("pubs");
 function renderPubs(filter){
-  const list = PUBS.filter(p => filter === "all" || p.tags.includes(filter)).sort((a,b) => b.year - a.year || (b.cites || 0) - (a.cites || 0));
+  const list = PUBS.filter(p => filter === "all" || p.tags.includes(filter)).sort((a,b) => b.year - a.year);
   pubsEl.innerHTML = list.map(p => `
     <li class="pub">
       <div class="yr">${p.year}</div>
@@ -743,7 +731,6 @@ function renderPubs(filter){
           ${p.status ? `<span class="status">● ${esc(p.status)}</span>` : ""}
           ${p.award ? `<span class="award">${esc(p.award)}</span>` : ""}
           ${p.note ? `<span>${esc(p.note)}</span>` : ""}
-          ${p.cites ? `<span class="cites">Cited by ${p.cites}</span>` : ""}
           ${p.links.map(([t,u]) => `<a href="${esc(u)}">${esc(t)} ↗</a>`).join("")}
         </div>
       </div>
@@ -807,7 +794,7 @@ const KB = [
   { id: "prev", q: ["previous job", "before servicenow", "qualtrics", "past experience", "work history career"], a: "Before ServiceNow: Qualtrics (2021–2024) moving survey NLP to fine-tuned Llama 2 and Mistral at 95% of GPT-4 quality and 10x lower cost; Capital One Labs (2019–2021) in applied NLP; and Sandia National Labs (2018–2019) building transformers for malware analysis." },
   { id: "edu", q: ["education", "where did he study", "degree", "university college", "masters school", "go to school", "studied cu boulder"], a: "He has an M.S. in Computer Science from the University of Colorado Boulder." },
   { id: "exp", q: ["how many years of experience", "how experienced is he", "years experience worked", "how many years worked", "how long working industry", "seniority level"], a: "8+ years in applied ML, now at Staff level." },
-  { id: "pubs", q: ["publications", "papers", "what has he published", "list of research papers", "google scholar citations", "how many citations"], a: "Seven papers with 58 citations. Highlights: From Confident Closing to Silent Failure (ICML 2026 workshop, 28 citations), Trajectory Guard and Right for Wrong Reasons (AAAI 2026 workshops), and Reading the Plan, accepted at 5 of 5 NeurIPS 2026 workshops. Explore them in the Research section." },
+  { id: "pubs", q: ["publications", "papers", "what has he published", "list of research papers", "google scholar", "how many papers"], a: "Highlights: From Confident Closing to Silent Failure (ICML 2026 workshop), Trajectory Guard and Right for Wrong Reasons (AAAI 2026 workshops), and Reading the Plan, accepted at 5 of 5 NeurIPS 2026 workshops. Explore them in the Research section." },
   { id: "rtp", q: ["reading the plan", "hidden states probing", "predict future actions", "neurips workshop paper", "confidence gating"], a: "Reading the Plan predicts an agent's future actions at several horizons from frozen LLM hidden states. Confidence gating cuts LLM calls by 75%. It was accepted at all five NeurIPS 2026 workshops it was submitted to." },
   { id: "silent", q: ["silent failures", "false success detection", "llm judges", "agent says done but failed", "failure detector classifier", "confident closing paper", "icml paper"], a: "From Confident Closing to Silent Failure (ICML 2026 workshop) studies agents that claim success when the task failed. Across 11,755 trajectories, no LLM-judge setup tops 0.65 AUROC, while cheap TF-IDF detectors reach 0.83 to 0.95 with 3,300x lower latency." },
   { id: "tg", q: ["trajectory guard", "aaai paper", "agent trajectory guardrails", "anomaly detection agents"], a: "Trajectory Guard (AAAI 2026 workshop) is a lightweight sequence model that flags anomalies in agent trajectories in real time: F1 0.88 to 0.94 vs at most 0.69 for unsupervised baselines, at 32 ms and 17 to 27x faster than LLM judges." },
@@ -1233,26 +1220,26 @@ const LIMIT = 86;
   const fw = box => Math.round(Math.max(320, Math.min(520, box.clientWidth || 520)));
 
   const PAPERS = [
-    { key: "silent", short: "Silent failure", venue: "ICML 2026 · Failure Modes in Agentic AI",
+    { key: "silent", short: "Silent failure", venue: "ICML 2026 Workshop · Failure Modes in Agentic AI",
       title: "From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents",
       tldr: "Agents often say a task is done when the environment shows it isn't. Across 11,755 trajectories from τ²-bench and AppWorld, no LLM-judge setup tops 0.65 AUROC at catching this. Judges read confident wording and how busy the agent looked, not the end state. Cheap text detectors do much better.",
       stats: [["0.83 / 0.95", "detector AUROC, τ²-bench / AppWorld"], ["4–8×", "more false successes caught at the same flag rate"], ["3,300×", "lower latency than LLM judges"]],
-      cites: 28, link: ["arXiv", "https://arxiv.org/abs/2606.09863"], fig: figSilent },
-    { key: "tg", short: "Trajectory Guard", venue: "AAAI 2026 · Workshop on Trusted Agents",
+      link: ["arXiv", "https://arxiv.org/abs/2606.09863"], fig: figSilent },
+    { key: "tg", short: "Trajectory Guard", venue: "AAAI 2026 Workshop · Trusted Agents",
       title: "Trajectory Guard: A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI",
       tldr: "A small sequence model that reads an agent's trajectory step by step and flags anomalies as they happen. Unsupervised detectors on pre-trained embeddings miss most of them; Trajectory Guard catches them fast enough to run inline.",
       stats: [["0.88–0.94", "F1 on balanced sets, vs ≤ 0.69 for baselines"], ["32 ms", "inference latency"], ["17–27×", "faster than LLM-judge baselines"]],
-      cites: 14, link: ["arXiv", "https://arxiv.org/abs/2601.00516"], fig: figTG },
-    { key: "rwr", short: "Right for wrong reasons", venue: "AAAI 2026 · Workshop on Trusted Agents",
+      link: ["arXiv", "https://arxiv.org/abs/2601.00516"], fig: figTG },
+    { key: "rwr", short: "Right for wrong reasons", venue: "AAAI 2026 Workshop · Trusted Agents",
       title: "When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents",
       tldr: "For 7–9B models, a correct answer often hides broken reasoning. Across 10,734 reasoning traces, the paper scores reasoning integrity, finds that retrieval helps while self-critique hurts, and distills the check into a fast classifier.",
       stats: [["50–69%", "of correct answers had flawed reasoning"], ["κ 0.657", "inter-rater agreement on the integrity score"], ["0.86 F1", "distilled verifier, 100× faster"]],
-      cites: 4, link: ["arXiv", "https://arxiv.org/abs/2601.00513"], fig: figRWR },
+      link: ["arXiv", "https://arxiv.org/abs/2601.00513"], fig: figRWR },
     { key: "rtp", short: "Reading the Plan", venue: "NeurIPS 2026 Workshops · accepted at 5 of 5",
       title: "Reading the Plan: Multi-Horizon Action Prediction from Frozen LLM Hidden States",
       tldr: "An agent's upcoming actions can be read from its hidden states before it acts. Lightweight probes predict actions at several horizons, and confidence gating lets the agent skip the LLM call whenever the probe is sure.",
       stats: [["75%", "fewer LLM calls with confidence gating"], ["5 of 5", "NeurIPS 2026 workshops accepted it"]],
-      cites: null, link: null, fig: figRTP }
+      link: null, fig: figRTP }
   ];
 
   const el = (tag, attrs = {}, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
@@ -1415,7 +1402,7 @@ const LIMIT = 86;
         <h3>${esc(p.title)}</h3>
         <p class="rx-tldr">${esc(p.tldr)}</p>
         <div class="rx-stats-row">${p.stats.map(([v, l]) => `<div class="rx-stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("")}</div>
-        <div class="rx-links">${p.link ? `<a href="${esc(p.link[1])}">Read the paper ›</a>` : ""}${p.cites ? `<span class="rx-cites">Cited by ${p.cites}</span>` : ""}</div>
+        <div class="rx-links">${p.link ? `<a href="${esc(p.link[1])}">Read the paper ›</a>` : ""}</div>
       </div>
       <div class="rx-fig" id="rx-fig"></div>`;
     const fig = document.getElementById("rx-fig"); lastW = fw(fig); p.fig(fig);

@@ -88,7 +88,6 @@
           "NeurIPS 2026 Workshop Verify-Agents",
           "ICML 2026 Workshop FAGEN"
         ],
-        "citations": 58,
         "links": {
           "site": "https://lakshadvani.github.io/",
           "scholar": "https://scholar.google.com/citations?hl=en&user=EBLv9hAAAAAJ",
@@ -118,7 +117,6 @@
           "title": "From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents",
           "venue": "ICML 2026 Workshop on Failure Modes in Agentic AI",
           "year": 2026,
-          "citations": 28,
           "topics": [
             "agents",
             "eval"
@@ -134,7 +132,6 @@
           "title": "Trajectory Guard: A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI",
           "venue": "AAAI 2026 Workshop on Trusted Agents",
           "year": 2026,
-          "citations": 14,
           "topics": [
             "agents"
           ],
@@ -148,7 +145,6 @@
           "title": "When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents",
           "venue": "AAAI 2026 Workshop on Trusted Agents",
           "year": 2026,
-          "citations": 4,
           "topics": [
             "reasoning",
             "eval"
@@ -175,7 +171,6 @@
           "title": "lakshadvani at SemEval-2026 Task 11: A Neuro-Symbolic Approach to Content-Independent Syllogistic Reasoning",
           "venue": "SemEval 2026",
           "year": 2026,
-          "citations": 1,
           "award": "Top 3, Subtask 1",
           "topics": [
             "reasoning"
@@ -185,7 +180,6 @@
           "title": "Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP",
           "venue": "GEM Workshop @ EMNLP 2023",
           "year": 2023,
-          "citations": 2,
           "authors": "W. Du, L. Advani, Y. Gambhir, D. Perry, P. Shiralkar, Z. Xing, A. Colak",
           "topics": [
             "eval"
@@ -195,7 +189,6 @@
           "title": "C1 at SemEval-2020 Task 9: SentiMix: Sentiment Analysis for Code-Mixed Social Media Text Using Feature Engineering",
           "venue": "SemEval 2020 @ COLING",
           "year": 2020,
-          "citations": 9,
           "authors": "L. Advani, C. Lu, S. Maharjan",
           "topics": []
         }
