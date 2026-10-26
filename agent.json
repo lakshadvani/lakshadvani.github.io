@@ -9,7 +9,7 @@
   "tools": [
     {
       "name": "get_profile",
-      "description": "Who Laksh is: role, employer, location, research focus and links.",
+      "description": "Who Laksh is: role, experience, skills, focus areas and links.",
       "inputSchema": {
         "type": "object",
         "properties": {}
@@ -20,25 +20,81 @@
         "employer": "ServiceNow",
         "location": "Seattle, WA",
         "experience_years": "8+",
-        "education": "M.S. Computer Science, University of Colorado Boulder",
-        "research": "Reliability of LLM agents: silent failures, verifying reasoning rather than only answers, and reading an agent's plan from its hidden states.",
-        "interests": [
-          "LLM agents and verification",
-          "Evaluation and LLM-as-judge",
-          "RLHF and preference optimization",
-          "Efficient inference"
+        "focus": [
+          "RL post-training (RLVR, GRPO, KTO, DPO, PPO, process reward models)",
+          "LLM agent reliability and recovery",
+          "Evaluation and LLM-as-a-judge",
+          "AI safety"
         ],
-        "links": {
-          "site": "https://lakshadvani.github.io/",
-          "scholar": "https://scholar.google.com/citations?hl=en&user=EBLv9hAAAAAJ",
-          "linkedin": "https://www.linkedin.com/in/lakshadvani/",
-          "github": "https://github.com/lakshadvani"
+        "education": "M.S. Computer Science (ML/AI), University of Colorado Boulder",
+        "experience": [
+          {
+            "org": "ServiceNow",
+            "role": "Staff Applied Scientist",
+            "dates": "2024–present"
+          },
+          {
+            "org": "Qualtrics",
+            "role": "Applied Scientist 2",
+            "dates": "2021–2024"
+          },
+          {
+            "org": "Capital One Labs",
+            "role": "Applied Scientist",
+            "dates": "2019–2021"
+          },
+          {
+            "org": "Sandia National Labs",
+            "role": "Graduate Research Associate",
+            "dates": "2018–2019"
+          }
+        ],
+        "skills": {
+          "post_training": [
+            "RLVR",
+            "GRPO",
+            "KTO",
+            "DPO",
+            "PPO",
+            "Process reward models",
+            "RLAIF",
+            "Synthetic data",
+            "LoRA/QLoRA"
+          ],
+          "agents_and_evals": [
+            "Multi-agent orchestration",
+            "Tool-use RL environments",
+            "Context engineering",
+            "RAG",
+            "LLM-as-a-judge",
+            "Eval harness design",
+            "MCP",
+            "LangGraph"
+          ],
+          "infrastructure": [
+            "PyTorch",
+            "TorchTitan",
+            "DeepSpeed",
+            "Distillation",
+            "Quantization",
+            "vLLM",
+            "Kubernetes",
+            "Argo",
+            "AWS"
+          ]
         },
         "reviewing": [
           "NeurIPS 2026 Workshop IAB",
           "NeurIPS 2026 Workshop Verify-Agents",
           "ICML 2026 Workshop FAGEN"
-        ]
+        ],
+        "citations": 58,
+        "links": {
+          "site": "https://lakshadvani.github.io/",
+          "scholar": "https://scholar.google.com/citations?hl=en&user=EBLv9hAAAAAJ",
+          "linkedin": "https://www.linkedin.com/in/lakshadvani/",
+          "github": "https://github.com/lakshadvani"
+        }
       }
     },
     {
@@ -59,54 +115,89 @@
       },
       "result": [
         {
-          "title": "Trajectory Guard",
-          "venue": "AAAI 2026 Workshop",
+          "title": "From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents",
+          "venue": "ICML 2026 Workshop on Failure Modes in Agentic AI",
           "year": 2026,
-          "status": "published",
+          "citations": 28,
+          "topics": [
+            "agents",
+            "eval"
+          ],
+          "url": "https://arxiv.org/abs/2606.09863",
+          "key_results": [
+            "No LLM-judge setup exceeds 0.65 AUROC on tau2-bench",
+            "TF-IDF detectors reach 0.83 (tau2-bench) and 0.95 (AppWorld) AUROC",
+            "3,300x lower latency than judges"
+          ]
+        },
+        {
+          "title": "Trajectory Guard: A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI",
+          "venue": "AAAI 2026 Workshop on Trusted Agents",
+          "year": 2026,
+          "citations": 14,
           "topics": [
             "agents"
           ],
-          "url": "https://arxiv.org/abs/2601.00516"
+          "url": "https://arxiv.org/abs/2601.00516",
+          "key_results": [
+            "F1 0.88-0.94 vs at most 0.69 for unsupervised baselines",
+            "32 ms inference, 17-27x faster than LLM judges"
+          ]
         },
         {
-          "title": "When Small Models Are Right for Wrong Reasons",
-          "venue": "AAAI 2026 Workshop",
+          "title": "When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents",
+          "venue": "AAAI 2026 Workshop on Trusted Agents",
           "year": 2026,
-          "status": "published",
+          "citations": 4,
           "topics": [
             "reasoning",
             "eval"
           ],
-          "url": "https://arxiv.org/abs/2601.00513"
-        },
-        {
-          "title": "Neuro-Symbolic Syllogistic Reasoning (SemEval-2026 Task 11)",
-          "venue": "SemEval 2026",
-          "year": 2026,
-          "status": "accepted",
-          "award": "Top 3, Subtask 1",
-          "topics": [
-            "reasoning"
+          "url": "https://arxiv.org/abs/2601.00513",
+          "key_results": [
+            "50-69% of correct answers contain flawed reasoning",
+            "Distilled verifier: 0.86 F1, 100x faster"
           ]
         },
         {
           "title": "Reading the Plan: Multi-Horizon Action Prediction from Frozen LLM Hidden States",
           "venue": "NeurIPS 2026 Workshops",
           "year": 2026,
-          "status": "accepted",
+          "status": "accepted at 5 of 5 workshops",
           "topics": [
             "agents"
           ],
-          "award": "Accepted at 5 of 5 NeurIPS 2026 workshops"
+          "key_results": [
+            "75% fewer LLM calls via confidence gating"
+          ]
+        },
+        {
+          "title": "lakshadvani at SemEval-2026 Task 11: A Neuro-Symbolic Approach to Content-Independent Syllogistic Reasoning",
+          "venue": "SemEval 2026",
+          "year": 2026,
+          "citations": 1,
+          "award": "Top 3, Subtask 1",
+          "topics": [
+            "reasoning"
+          ]
         },
         {
           "title": "Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP",
-          "venue": "ACL Anthology",
+          "venue": "GEM Workshop @ EMNLP 2023",
           "year": 2023,
-          "status": "published",
+          "citations": 2,
+          "authors": "W. Du, L. Advani, Y. Gambhir, D. Perry, P. Shiralkar, Z. Xing, A. Colak",
           "topics": [
             "eval"
           ]
+        },
+        {
+          "title": "C1 at SemEval-2020 Task 9: SentiMix: Sentiment Analysis for Code-Mixed Social Media Text Using Feature Engineering",
+          "venue": "SemEval 2020 @ COLING",
+          "year": 2020,
+          "citations": 9,
+          "authors": "L. Advani, C. Lu, S. Maharjan",
+          "topics": []
         }
       ]
     },
@@ -119,28 +210,28 @@
       },
       "result": [
         {
-          "name": "Agentic IT service management",
-          "summary": "Agents that resolve IT service requests end to end in production"
+          "name": "Post-training an agent orchestrator",
+          "summary": "RL environments, weighted verifiers and a turn-level process reward model; KTO warm-start to online GRPO"
         },
         {
-          "name": "Catching silent failures",
-          "summary": "Checks that flag when an agent claims success it didn't achieve"
+          "name": "Agent recovery loop",
+          "summary": "Localizes failures and resets subagents on long-horizon tasks"
         },
         {
-          "name": "Reading the Plan",
-          "result": "75% fewer LLM calls via confidence gating"
+          "name": "Overnight eval harness",
+          "summary": "Benchmark and live-query evaluation used across the agentic AI organization"
         },
         {
-          "name": "Post-training at scale",
-          "summary": "DPO, PPO and QLoRA pipelines for large language models"
-        },
-        {
-          "name": "Neuro-symbolic syllogisms",
-          "result": "Top 3, SemEval 2026 Task 11 Subtask 1"
+          "name": "Access-control tripwires",
+          "summary": "Low-latency safety checks on sensitive data access"
         },
         {
           "name": "Domain LLMs at Qualtrics",
-          "result": "GPT-4 parity on internal benchmarks, 80% lower operating cost on-prem"
+          "summary": "Fine-tuned Llama 2 and Mistral 7B at 95% of GPT-4 quality and 10x lower cost"
+        },
+        {
+          "name": "Security ML at Sandia",
+          "summary": "Seq2seq transformers for malware analysis, 10x lower latency"
         }
       ]
     },

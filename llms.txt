@@ -1,12 +1,32 @@
 # Laksh Advani
 
-> Staff Applied Scientist at ServiceNow in Seattle. Works on the reliability of LLM agents: silent failures, verifying reasoning, and reading an agent's plan from its hidden states. 8+ years in applied ML.
+> Staff Applied Scientist at ServiceNow in Seattle. 8+ years in ML. Works on RL post-training (RLVR, GRPO, process reward models), LLM agent reliability and recovery, evaluation, and safety.
 
-## Profile
-- Role: Staff Applied Scientist, ServiceNow (2024–present); previously Applied Scientist, Qualtrics (2021–2024)
-- Education: M.S. Computer Science, University of Colorado Boulder
-- Interests: LLM agents and verification; evaluation and LLM-as-judge; RLHF and preference optimization; efficient inference
-- Contact: laksh.edu@gmail.com
+## Experience
+- ServiceNow, Staff Applied Scientist (2024–present)
+- Qualtrics, Applied Scientist 2 (2021–2024)
+- Capital One Labs, Applied Scientist (2019–2021)
+- Sandia National Labs, Graduate Research Associate (2018–2019)
+- M.S. Computer Science (ML/AI), University of Colorado Boulder
+
+## Skills
+- Post-training: RLVR, GRPO, KTO, DPO, PPO, Process reward models, RLAIF, Synthetic data, LoRA/QLoRA
+- Agents and evals: Multi-agent orchestration, Tool-use RL environments, Context engineering, RAG, LLM-as-a-judge, Eval harness design, MCP, LangGraph
+- Infrastructure: PyTorch, TorchTitan, DeepSpeed, Distillation, Quantization, vLLM, Kubernetes, Argo, AWS
+
+## Publications (58 citations on Google Scholar)
+- From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents — ICML 2026 Workshop on Failure Modes in Agentic AI (28 citations)
+- Trajectory Guard: A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI — AAAI 2026 Workshop on Trusted Agents (14 citations)
+- When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents — AAAI 2026 Workshop on Trusted Agents (4 citations)
+- Reading the Plan: Multi-Horizon Action Prediction from Frozen LLM Hidden States — NeurIPS 2026 Workshops — accepted at 5 of 5 workshops
+- lakshadvani at SemEval-2026 Task 11: A Neuro-Symbolic Approach to Content-Independent Syllogistic Reasoning — SemEval 2026 (1 citations) — Top 3, Subtask 1
+- Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP — GEM Workshop @ EMNLP 2023 (2 citations)
+- C1 at SemEval-2020 Task 9: SentiMix: Sentiment Analysis for Code-Mixed Social Media Text Using Feature Engineering — SemEval 2020 @ COLING (9 citations)
+
+## Reviewing
+- NeurIPS 2026 Workshop IAB
+- NeurIPS 2026 Workshop Verify-Agents
+- ICML 2026 Workshop FAGEN
 
 ## Links
 - [Website](https://lakshadvani.github.io/)
@@ -14,23 +34,4 @@
 - [Google Scholar](https://scholar.google.com/citations?hl=en&user=EBLv9hAAAAAJ)
 - [LinkedIn](https://www.linkedin.com/in/lakshadvani/)
 - [GitHub](https://github.com/lakshadvani)
-
-## Reviewing
-- NeurIPS 2026 Workshop IAB
-- NeurIPS 2026 Workshop Verify-Agents
-- ICML 2026 Workshop FAGEN
-
-## Publications
-- Trajectory Guard — AAAI 2026 Workshop (published)
-- When Small Models Are Right for Wrong Reasons — AAAI 2026 Workshop (published)
-- Neuro-Symbolic Syllogistic Reasoning (SemEval-2026 Task 11) — SemEval 2026 (Top 3, Subtask 1)
-- Reading the Plan: Multi-Horizon Action Prediction from Frozen LLM Hidden States — NeurIPS 2026 Workshops (Accepted at 5 of 5 NeurIPS 2026 workshops)
-- Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP — ACL Anthology (published)
-
-## Selected projects
-- Agentic IT service management: Agents that resolve IT service requests end to end in production
-- Catching silent failures: Checks that flag when an agent claims success it didn't achieve
-- Reading the Plan: 75% fewer LLM calls via confidence gating
-- Post-training at scale: DPO, PPO and QLoRA pipelines for large language models
-- Neuro-symbolic syllogisms: Top 3, SemEval 2026 Task 11 Subtask 1
-- Domain LLMs at Qualtrics: GPT-4 parity on internal benchmarks, 80% lower operating cost on-prem
+- Contact: laksh.edu@gmail.com

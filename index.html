@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Laksh Advani · Staff Applied Scientist at ServiceNow</title>
+<title>Laksh Advani · Staff Applied Scientist · Post-Training, RL &amp; Agent Reliability</title>
 <meta name="author" content="Laksh Advani">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta property="og:type" content="profile">
 <meta property="og:site_name" content="Laksh Advani">
-<meta property="og:title" content="Laksh Advani · Staff Applied Scientist at ServiceNow">
-<meta property="og:description" content="Research and engineering on reliable LLM agents, RLHF, evaluation and efficient inference.">
+<meta property="og:title" content="Laksh Advani · Staff Applied Scientist · Post-Training, RL & Agent Reliability">
+<meta property="og:description" content="Staff Applied Scientist at ServiceNow working on RL post-training, LLM agent reliability, evaluation and safety. Papers, projects and photography.">
 <meta property="og:url" content="https://lakshadvani.github.io/">
 <meta property="og:image" content="https://lakshadvani.github.io/og.jpg">
 <meta property="og:image:width" content="1200">
@@ -18,14 +18,14 @@
 <meta property="profile:first_name" content="Laksh">
 <meta property="profile:last_name" content="Advani">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Laksh Advani · Staff Applied Scientist at ServiceNow">
-<meta name="twitter:description" content="Research and engineering on reliable LLM agents, RLHF, evaluation and efficient inference.">
+<meta name="twitter:title" content="Laksh Advani · Staff Applied Scientist · Post-Training, RL & Agent Reliability">
+<meta name="twitter:description" content="Staff Applied Scientist at ServiceNow working on RL post-training, LLM agent reliability, evaluation and safety. Papers, projects and photography.">
 <meta name="twitter:image" content="https://lakshadvani.github.io/og.jpg">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="alternate" type="application/json" href="agent.json" title="Machine-readable profile">
-<meta name="description" content="Laksh Advani is a Staff Applied Scientist at ServiceNow in Seattle working on reliable LLM agents, RLHF, evaluation and inference optimization. Publications, projects and photography.">
+<meta name="description" content="Laksh Advani is a Staff Applied Scientist at ServiceNow in Seattle working on RL post-training, LLM agent reliability, evaluation and safety. 8+ years in ML. Papers, projects and photography.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
@@ -40,7 +40,8 @@
   "address": { "@type": "PostalAddress", "addressLocality": "Seattle", "addressRegion": "WA" },
   "url": "https://lakshadvani.github.io/",
   "image": "https://lakshadvani.github.io/photos/laksh.jpg",
-  "knowsAbout": ["LLM agents", "RLHF", "AI alignment", "LLM evaluation", "Inference optimization"],
+  "description": "Staff Applied Scientist working on RL post-training, LLM agent reliability, evaluation and safety.",
+  "knowsAbout": ["LLM post-training", "Reinforcement learning", "RLVR", "GRPO", "DPO", "Process reward models", "LLM agents", "Multi-agent systems", "LLM evaluation", "LLM-as-a-judge", "AI safety", "Model Context Protocol", "PyTorch"],
   "sameAs": [
     "https://scholar.google.com/citations?hl=en&user=EBLv9hAAAAAJ",
     "https://www.linkedin.com/in/lakshadvani/",
@@ -189,31 +190,6 @@ nav a:hover{opacity:1;text-decoration:none}
 .gw-copy code{font-family:var(--mono);font-size:.8rem}
 .gw-copy span{font-size:.8rem;color:var(--accent);font-weight:500}
 
-/* agent activity (simulated) */
-.alien{margin-top:28px;border-radius:var(--r-lg);background:#061114;color:#BFFBEA;padding:16px 18px 14px;box-shadow:inset 0 0 0 1px rgba(124,255,217,.16),0 20px 50px rgba(5,20,25,.25);font-family:var(--mono);position:relative;overflow:hidden}
-.alien::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(124,255,217,.035) 0 1px,transparent 1px 3px)}
-.al-head{display:flex;align-items:center;gap:10px;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px}
-.al-gl{color:#7CFFD9;letter-spacing:.3em;text-shadow:0 0 8px rgba(124,255,217,.6)}
-.al-sim{font-size:.62rem;letter-spacing:.12em;color:#FFBE5A;border:1px solid rgba(255,190,90,.55);border-radius:4px;padding:1px 6px}
-.al-clock{margin-left:auto;color:rgba(191,251,234,.6);font-variant-numeric:tabular-nums;letter-spacing:.06em}
-.al-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:14px}
-#al-radar{width:100%;height:210px;display:block;border-radius:12px;box-shadow:inset 0 0 0 1px rgba(124,255,217,.12)}
-.al-panes{display:grid;grid-template-rows:1fr 1fr;gap:10px;min-width:0}
-.al-pane{border-radius:12px;box-shadow:inset 0 0 0 1px rgba(124,255,217,.12);background:rgba(124,255,217,.025);padding:10px 12px;min-width:0;overflow:hidden}
-.al-l{font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(124,255,217,.55);margin-bottom:6px}
-.al-log{display:flex;flex-direction:column;gap:3px;font-size:.72rem;line-height:1.5}
-.al-line{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;animation:alin .35s ease-out}
-@keyframes alin{from{opacity:0;transform:translateX(-4px)}to{opacity:1;transform:none}}
-.al-to,.al-ts{color:rgba(191,251,234,.45)}
-.al-msg{color:#E6FFF8}
-.al-line.srv .al-msg{color:#9EFFE3}
-.al-args{color:#C9B2FF}
-.al-ok{color:#7CFFD9}
-.al-hb{color:rgba(255,190,90,.8)}
-.al-line b{font-weight:500;color:#E6FFF8}
-.al-foot{font-size:.66rem;color:rgba(191,251,234,.5);margin-top:10px;letter-spacing:.02em}
-@media (prefers-reduced-motion:reduce){.al-line{animation:none}}
-
 /* places */
 .places{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:48px;align-items:center}
 #globe{width:100%;max-width:480px;aspect-ratio:1/1;display:block;margin:0 auto;cursor:grab;touch-action:pan-y}
@@ -297,6 +273,68 @@ section.band.alt{background:var(--alt)}
 .service li{background:var(--panel);border-radius:980px;padding:6px 14px;font-size:.88rem;color:var(--muted)}
 .service li b{color:var(--ink);font-weight:600}
 
+/* research explorer */
+.rx-top{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:22px}
+.rx-top div{background:var(--alt);border-radius:var(--r-md);padding:16px 18px;display:flex;flex-direction:column;gap:2px}
+.rx-top b{font-size:1.9rem;font-weight:700;letter-spacing:-.04em;line-height:1.05;font-variant-numeric:tabular-nums}
+.rx-top span{font-size:.82rem;color:var(--muted)}
+.rx{background:var(--alt);border-radius:var(--r-lg);padding:10px}
+.rx-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.rx-tabs button{font:inherit;text-align:left;border:0;background:transparent;border-radius:14px;padding:12px 14px;cursor:pointer;display:flex;flex-direction:column;gap:2px;color:var(--ink);min-width:0}
+.rx-tabs button:hover{background:rgba(255,255,255,.6)}
+.rx-tabs button[aria-selected="true"]{background:var(--panel);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.rx-tv{font-size:.72rem;font-weight:600;color:var(--accent);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rx-tn{font-size:.98rem;font-weight:600;letter-spacing:-.02em}
+.rx-panel{background:var(--panel);border-radius:16px;margin-top:10px;padding:28px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:32px;align-items:start;min-height:420px}
+.rx-venue{font-size:.8rem;font-weight:600;color:var(--accent)}
+.rx-text h3{font-size:1.32rem;line-height:1.25;letter-spacing:-.03em;margin:6px 0 12px;text-wrap:balance}
+.rx-tldr{color:#424245;margin:0 0 18px}
+.rx-stats-row{display:grid;gap:10px}
+.rx-stat{display:grid;grid-template-columns:104px minmax(0,1fr);gap:12px;align-items:baseline;border-top:1px solid rgba(0,0,0,.07);padding-top:10px}
+.rx-stat b{font-size:1.25rem;font-weight:700;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.rx-stat span{font-size:.88rem;color:var(--muted)}
+.rx-links{display:flex;gap:16px;align-items:center;margin-top:18px;font-size:.95rem}
+.rx-cites,.cites{font-size:.8rem;font-weight:500;color:var(--muted);background:var(--alt);border-radius:980px;padding:3px 10px}
+.rx-fig{min-width:0}
+.rx-ctl{margin-bottom:12px}
+.rx-seg{display:inline-flex;background:var(--alt);border-radius:980px;padding:3px;gap:2px;flex-wrap:wrap}
+.rx-seg button{font:inherit;font-size:.82rem;font-weight:500;border:0;background:transparent;color:var(--ink);border-radius:980px;padding:6px 13px;cursor:pointer}
+.rx-seg button[aria-pressed="true"]{background:var(--panel);box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.rx-svg{width:100%;height:auto;display:block;overflow:visible}
+.rx-svg text{font-family:var(--sans)}
+.rx-h{font-size:13px;font-weight:600;fill:var(--ink)}
+.rx-sub{font-size:11px;fill:var(--muted)}
+.rx-lab{font-size:12px;fill:var(--ink)}
+.rx-val{font-size:12px;font-weight:600;fill:var(--ink);font-variant-numeric:tabular-nums}
+.rx-tick{font-size:10px;fill:var(--muted)}
+.rx-big{font-size:44px;font-weight:700;fill:var(--fail);letter-spacing:-.04em}
+.rx-grid{stroke:rgba(0,0,0,.07)}
+.rx-chance{stroke:var(--muted);stroke-dasharray:3 4}
+.rx-track{fill:var(--alt)}
+.rx-b-acc{fill:var(--accent)}
+.rx-b-muted{fill:#C7CBD3}
+.rx-b-fail{fill:var(--fail);opacity:.85}
+.rx-b-warn{fill:#FF9F0A}
+.rx-b-range{fill:#004A99}
+.rx-ok{fill:#BFD9F5}
+.rx-bad{fill:var(--fail);opacity:.85}
+.rx-tag-ok{font-size:10px;font-weight:600;fill:var(--accent)}
+.rx-tag-warn{font-size:10px;font-weight:600;fill:#B25000}
+.rx-cv{width:100%;height:150px;display:block;background:var(--alt);border-radius:12px;margin-bottom:6px}
+.rx-cap{font-size:.82rem;color:var(--muted);margin:8px 0 16px}
+.rx-fig .trace{margin-top:4px}
+.rx-all{font-size:1.3rem;letter-spacing:-.03em;margin:44px 0 14px}
+.rx-note{font-size:.8rem;color:var(--muted);margin:10px 0 0}
+.pub .authors{font-size:.88rem;color:var(--muted);margin-bottom:2px}
+.pub .authors b{color:var(--ink);font-weight:600}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:16px}
+.skill-g{background:var(--alt);border-radius:var(--r-lg);padding:22px 24px}
+.skill-g h4{margin:0 0 12px;font-size:1rem;letter-spacing:-.02em}
+.skill-g ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.skill-g li{font-size:.82rem;background:var(--panel);border-radius:980px;padding:5px 11px;color:#424245}
+
 /* photography */
 .gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
 .frame{margin:0;cursor:zoom-in;background:none;border:0;padding:0;text-align:left;font:inherit;color:inherit;display:flex;flex-direction:column;min-width:0}
@@ -338,9 +376,10 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
   .places{grid-template-columns:1fr;gap:24px}
   .reads{grid-template-columns:1fr}
   .gw{grid-template-columns:1fr}
-  .al-grid{grid-template-columns:1fr}
-  #al-radar{height:260px}
-  .al-panes{grid-template-rows:auto auto}
+  .rx-panel{grid-template-columns:1fr;gap:22px;padding:22px;min-height:0}
+  .rx-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .rx-top{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .skills{grid-template-columns:1fr}
 }
 @media (max-width:600px){
   section.band{padding-block:60px}
@@ -370,7 +409,7 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
       <nav aria-label="Sections"><ul>
         <li><a href="#work">Work</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#publications">Publications</a></li>
+        <li><a href="#publications">Research</a></li>
         <li><a href="#reading">Reading</a></li>
         <li><a href="#photos">Photography</a></li>
         <li><a href="#places">Places</a></li>
@@ -389,18 +428,20 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
         <h1>Laksh Advani</h1>
         <p class="title">Staff Applied Scientist at ServiceNow.</p>
         <ul class="facts">
-          <li>8+ years in applied ML</li>
-          <li>M.S. CS, CU Boulder</li>
+          <li>8+ years in ML</li>
+          <li>Post-training &amp; RL</li>
+          <li>Agent reliability &amp; safety</li>
           <li>Seattle, WA</li>
         </ul>
         <p class="lede">I make LLM agents reliable enough to trust in production.</p>
         <div class="bio">
           <p>My research starts from a simple question: when an agent says a task is done, how do we know it actually is? I study how agents fail silently, how to verify their reasoning rather than only their answers, and how much of an agent's plan can be read from its hidden states before it acts.</p>
-          <p>I turn that work into systems that run at scale: post-training pipelines for large language models, agentic systems for IT service management, and inference optimization for serving at scale. Before ServiceNow, I adapted open-weight models for enterprise NLP at Qualtrics.</p>
+          <p>I turn that work into production systems: RL post-training for agent orchestration, recovery loops for long-horizon agents, evaluation harnesses and safety guardrails. Before ServiceNow, I worked on LLMs at Qualtrics, applied NLP at Capital One Labs, and security ML at Sandia National Labs.</p>
         </div>
-        <p class="interests"><b>Interests</b> · LLM agents and verification · evaluation and LLM-as-judge · RLHF and preference optimization · efficient inference</p>
+        <p class="interests"><b>Focus</b> · RL post-training (RLVR, GRPO, process reward models) · agent reliability and recovery · evaluation and LLM-as-a-judge · AI safety</p>
         <div class="links">
-          <a class="pill blue lg" href="#publications">Publications</a>
+          <a class="pill blue lg" href="#publications">Research</a>
+          <a class="pill ghost lg" href="#work">Experience</a>
           <a class="textlink" href="https://scholar.google.com/citations?hl=en&user=EBLv9hAAAAAJ">Google Scholar ›</a>
           <a class="textlink" href="https://www.linkedin.com/in/lakshadvani/">LinkedIn ›</a>
           <a class="textlink" href="https://github.com/lakshadvani">GitHub ›</a>
@@ -436,6 +477,7 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
         <li><time>Sep 2026</time><span><i>Reading the Plan</i> accepted at all five NeurIPS 2026 workshops it was submitted to.</span></li>
         <li><time>Sep 2026</time><span>Reviewer for the NeurIPS 2026 IAB and Verify-Agents workshops.</span></li>
         <li><time>2026</time><span>Ranked top 3 on SemEval-2026 Task 11, Subtask 1.</span></li>
+        <li><time>2026</time><span><i>From Confident Closing to Silent Failure</i> at the ICML 2026 workshop on failure modes in agentic AI.</span></li>
         <li><time>May 2026</time><span>Reviewer for the ICML 2026 FAGEN workshop.</span></li>
         <li><time>2026</time><span>Two papers at AAAI 2026 workshops.</span></li>
       </ul></div>
@@ -444,65 +486,98 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
 
   <section class="band" id="work">
     <div class="wrap">
-      <div class="head"><p class="eyebrow">Experience</p><h2>Work.</h2></div>
+      <div class="head"><p class="eyebrow">Experience</p><h2>Work.</h2><p>Eight years across research labs and product teams, from security ML to LLM post-training.</p></div>
       <div class="jobs">
         <article class="job" style="background:var(--alt)">
-          <div class="when">2024 – now</div>
+          <div class="when">Jun 2024 – now</div>
           <div>
             <h3>ServiceNow</h3>
-            <div class="role">Staff Applied Scientist</div>
+            <div class="role">Staff Applied Scientist · Seattle</div>
             <ul>
-              <li>Build agentic systems for IT service management, taking them from research prototypes to production.</li>
-              <li>Lead post-training work on large language models, including DPO, PPO and QLoRA fine-tuning.</li>
-              <li>Develop evaluation and verification methods that make agents more reliable to deploy.</li>
-              <li>Inference work across vLLM serving, speculative decoding and KV-cache optimization.</li>
+              <li>Post-training: RL environments, verifiers and a turn-level process reward model for an agent orchestrator, from KTO warm-starts to online GRPO.</li>
+              <li>Agent runtime: recovery loops that localize failures and reset subagents on long-horizon tasks, plus tool retrieval and memory.</li>
+              <li>Evaluation: an overnight harness over benchmark and live queries, adopted across the agentic AI organization.</li>
+              <li>Safety research: low-latency tripwires that stop unsafe access to sensitive data, and the papers below.</li>
             </ul>
-            <div class="tags"><span class="tag" style="background:var(--panel)">Agents</span><span class="tag" style="background:var(--panel)">DPO / PPO</span><span class="tag" style="background:var(--panel)">Post-training</span><span class="tag" style="background:var(--panel)">vLLM</span><span class="tag" style="background:var(--panel)">Evaluation</span></div>
+            <div class="tags"><span class="tag" style="background:var(--panel)">RLVR · GRPO</span><span class="tag" style="background:var(--panel)">Process reward models</span><span class="tag" style="background:var(--panel)">Multi-agent systems</span><span class="tag" style="background:var(--panel)">Evaluation</span><span class="tag" style="background:var(--panel)">Safety</span></div>
           </div>
         </article>
         <article class="job" style="background:var(--alt)">
-          <div class="when">2021 – 2024</div>
+          <div class="when">May 2021 – May 2024</div>
           <div>
             <h3>Qualtrics</h3>
-            <div class="role">Applied Scientist</div>
+            <div class="role">Applied Scientist 2 · Seattle</div>
             <ul>
-              <li>Continual pre-training and RLHF of Llama 2 and Mistral 7B, reaching GPT-4 parity on internal benchmarks.</li>
-              <li>Enabled on-prem deployment of those models, reducing operating cost by 80%.</li>
+              <li>Moved survey NLP from classical models to fine-tuned Llama 2 and Mistral 7B (SFT, KTO, QLoRA), reaching 95% of GPT-4 quality at 10× lower cost.</li>
+              <li>Showed that ensemble disagreement can estimate LLM error on unlabeled production data (GEM @ EMNLP 2023).</li>
             </ul>
-            <div class="tags"><span class="tag" style="background:var(--panel)">Continual pre-training</span><span class="tag" style="background:var(--panel)">RLHF</span><span class="tag" style="background:var(--panel)">Llama 2</span><span class="tag" style="background:var(--panel)">Mistral</span></div>
+            <div class="tags"><span class="tag" style="background:var(--panel)">SFT · KTO</span><span class="tag" style="background:var(--panel)">QLoRA</span><span class="tag" style="background:var(--panel)">Llama 2 · Mistral</span><span class="tag" style="background:var(--panel)">Label-free evals</span></div>
           </div>
         </article>
         <article class="job" style="background:var(--alt)">
-          <div class="when">Education</div>
+          <div class="when">Jul 2019 – Apr 2021</div>
           <div>
-            <h3>University of Colorado Boulder</h3>
-            <div class="role" style="margin-bottom:0">M.S., Computer Science</div>
+            <h3>Capital One Labs</h3>
+            <div class="role">Applied Scientist · Washington, DC</div>
+            <ul>
+              <li>Led a summarization launch and lifted code-mixed sentiment F1 from 35% to 45%, published at SemEval 2020 (COLING).</li>
+            </ul>
           </div>
         </article>
+        <article class="job" style="background:var(--alt)">
+          <div class="when">May 2018 – Jun 2019</div>
+          <div>
+            <h3>Sandia National Labs</h3>
+            <div class="role">Graduate Research Associate</div>
+            <ul>
+              <li>Built seq2seq transformers for automated malware analysis, cutting analysis latency 10×.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="job" style="background:var(--alt)">
+          <div class="when">2017 – 2019</div>
+          <div>
+            <h3>University of Colorado Boulder</h3>
+            <div class="role" style="margin-bottom:0">M.S., Computer Science · ML/AI</div>
+          </div>
+        </article>
+      </div>
+      <div class="skills">
+        <div class="skill-g"><h4>Post-training &amp; alignment</h4><ul><li>RLVR</li><li>GRPO</li><li>KTO</li><li>DPO</li><li>PPO</li><li>Process reward models</li><li>RLAIF</li><li>Synthetic data</li><li>LoRA / QLoRA</li></ul></div>
+        <div class="skill-g"><h4>Agentic systems &amp; evals</h4><ul><li>Multi-agent orchestration</li><li>Tool-use RL environments</li><li>Context engineering</li><li>RAG</li><li>LLM-as-a-judge</li><li>Eval harness design</li><li>MCP</li><li>LangGraph</li></ul></div>
+        <div class="skill-g"><h4>Infrastructure</h4><ul><li>PyTorch</li><li>TorchTitan</li><li>DeepSpeed</li><li>Distillation</li><li>Quantization</li><li>vLLM</li><li>Kubernetes</li><li>Argo</li><li>AWS</li></ul></div>
       </div>
     </div>
   </section>
 
   <section class="band alt" id="projects">
     <div class="wrap">
-      <div class="head"><p class="eyebrow">Selected work</p><h2>Projects.</h2><p>Systems and research I've built and shipped.</p></div>
-      <figure class="fig" id="fig1" style="background:var(--panel)">
-        <figcaption><b>Figure 1.</b> An illustrative agent trajectory. The restart call fails, yet the agent reports success at step 4; a verifier flags the claim before the task closes.</figcaption>
-      </figure>
+      <div class="head"><p class="eyebrow">Selected work</p><h2>Projects.</h2><p>Systems I've built and shipped. Production details are kept general.</p></div>
       <div class="projects">
-        <div class="proj" style="background:var(--panel)"><div class="metric">Agents</div><div class="sub">production · enterprise IT</div><h3>Agentic IT service management</h3><p>Agents that resolve IT service requests end to end, built to run reliably in production.</p></div>
-        <div class="proj" style="background:var(--panel)"><div class="metric">Verify</div><div class="sub">agent reliability</div><h3>Catching silent failures</h3><p>Checks that flag when an agent claims success it didn't actually achieve.</p></div>
-        <div class="proj" style="background:var(--panel)"><div class="metric">75%</div><div class="sub">fewer LLM calls via confidence gating</div><h3>Reading the Plan</h3><p>Predicting an agent's future actions at multiple horizons from frozen hidden states.</p></div>
-        <div class="proj" style="background:var(--panel)"><div class="metric">DPO · PPO</div><div class="sub">preference optimization</div><h3>Post-training at scale</h3><p>Post-training pipelines for large language models, from preference data to deployment.</p></div>
-        <div class="proj" style="background:var(--panel)"><div class="metric">Top 3</div><div class="sub">SemEval 2026 · Task 11, Subtask 1</div><h3>Neuro-symbolic syllogisms</h3><p>A hybrid system that pairs an LLM with symbolic checks to judge whether arguments are valid.</p></div>
-        <div class="proj" style="background:var(--panel)"><div class="metric">−80%</div><div class="sub">opex · GPT-4 parity, on-prem</div><h3>Domain LLMs at Qualtrics</h3><p>Continual pre-training and RLHF of open 7B models to replace a hosted frontier model.</p></div>
+        <div class="proj" style="background:var(--panel)"><div class="metric">RL</div><div class="sub">online GRPO · verifiers · PRMs</div><h3>Post-training an agent orchestrator</h3><p>RL environments, weighted verifiers and a turn-level process reward model that train a production agent orchestrator.</p></div>
+        <div class="proj" style="background:var(--panel)"><div class="metric">Recover</div><div class="sub">long-horizon agents</div><h3>Agent recovery loop</h3><p>A small model that pinpoints where an agent went wrong and resets subagents to get long tasks back on track.</p></div>
+        <div class="proj" style="background:var(--panel)"><div class="metric">Evals</div><div class="sub">benchmark + live queries</div><h3>Overnight eval harness</h3><p>An evaluation harness that runs every night and is used across the agentic AI organization.</p></div>
+        <div class="proj" style="background:var(--panel)"><div class="metric">Guard</div><div class="sub">safety</div><h3>Access-control tripwires</h3><p>Low-latency checks that stop agents from making unsafe calls to sensitive data.</p></div>
+        <div class="proj" style="background:var(--panel)"><div class="metric">95%</div><div class="sub">of GPT-4 quality · 10× lower cost</div><h3>Domain LLMs at Qualtrics</h3><p>Fine-tuned Llama 2 and Mistral 7B models that replaced classical survey NLP.</p></div>
+        <div class="proj" style="background:var(--panel)"><div class="metric">10×</div><div class="sub">faster malware analysis</div><h3>Security ML at Sandia</h3><p>Seq2seq transformers that automated parts of malware analysis.</p></div>
       </div>
     </div>
   </section>
 
   <section class="band" id="publications">
     <div class="wrap">
-      <div class="head"><p class="eyebrow">Research</p><h2>Publications.</h2></div>
+      <div class="head"><p class="eyebrow">Research</p><h2>Papers, explained.</h2><p>Pick a paper to explore its main result. Numbers come straight from the papers.</p></div>
+      <div class="rx-top">
+        <div><b>7</b><span>papers</span></div>
+        <div><b>58</b><span>citations</span></div>
+        <div><b>5 / 5</b><span>workshop acceptances for <i>Reading the Plan</i></span></div>
+        <div><b>3</b><span>workshops reviewed for</span></div>
+      </div>
+      <div class="rx">
+        <div class="rx-tabs" id="rx-tabs" role="tablist" aria-label="Featured papers"></div>
+        <div class="rx-panel" id="rx-panel" role="tabpanel"></div>
+      </div>
+      <h3 class="rx-all">All publications</h3>
       <div class="filters" role="group" aria-label="Filter publications" style="--panel:var(--alt)">
         <button type="button" id="f-all" data-f="all" aria-pressed="true">All</button>
         <button type="button" id="f-agents" data-f="agents" aria-pressed="false">Agent reliability</button>
@@ -510,6 +585,7 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
         <button type="button" id="f-reasoning" data-f="reasoning" aria-pressed="false">Reasoning</button>
       </div>
       <ul class="pubs" id="pubs" style="background:var(--alt)"></ul>
+      <p class="rx-note">Citation counts from <a href="https://scholar.google.com/citations?hl=en&user=EBLv9hAAAAAJ">Google Scholar</a>, October 2026.</p>
       <div class="service">
         <div class="ed-l">Reviewing</div>
         <ul>
@@ -568,16 +644,6 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
         <button type="button" class="gw-copy" data-path="llms.txt"><code>GET /llms.txt</code><span>Copy curl</span></button>
         <p>Static, read-only files in MCP's tool format, so assistants can answer questions about me without scraping the page.</p>
       </div>
-      <div class="alien" id="alien">
-        <div class="al-head"><span class="al-gl" aria-hidden="true">⏃⏚☊⎅</span><span>Agent playground</span><span class="al-clock" id="al-clock"></span></div>
-        <div class="al-grid">
-          <canvas id="al-radar" role="img" aria-label="Radar view of three fictional agents exchanging messages with this site's MCP tools"></canvas>
-          <div class="al-panes">
-            <div class="al-pane"><div class="al-l">Comms</div><div class="al-log" id="al-comms"></div></div>
-            <div class="al-pane"><div class="al-l">MCP pings</div><div class="al-log" id="al-pings"></div></div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -623,16 +689,20 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
 <script>
 /* ---- Edit your content here ---- */
 const PUBS = [
-  { year: 2026, tags: ["agents"], title: "Trajectory Guard",
-    venue: "AAAI 2026 Workshop", links: [["arXiv","https://arxiv.org/abs/2601.00516"]] },
-  { year: 2026, tags: ["reasoning","eval"], title: "When Small Models Are Right for Wrong Reasons",
-    venue: "AAAI 2026 Workshop", links: [["arXiv","https://arxiv.org/abs/2601.00513"]] },
-  { year: 2026, tags: ["reasoning"], title: "Neuro-Symbolic Syllogistic Reasoning (SemEval-2026 Task 11)",
-    venue: "SemEval 2026 · accepted", award: "Top 3, Subtask 1", links: [] },
-  { year: 2026, tags: ["agents"], title: "Reading the Plan: Multi-Horizon Action Prediction from Frozen LLM Hidden States",
+  { year: 2026, tags: ["agents","eval"], title: "From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents", authors: "L. Advani",
+    venue: "ICML 2026 Workshop on Failure Modes in Agentic AI", cites: 28, links: [["arXiv","https://arxiv.org/abs/2606.09863"]] },
+  { year: 2026, tags: ["agents"], title: "Trajectory Guard: A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI", authors: "L. Advani",
+    venue: "AAAI 2026 Workshop on Trusted Agents", cites: 14, links: [["arXiv","https://arxiv.org/abs/2601.00516"]] },
+  { year: 2026, tags: ["reasoning","eval"], title: "When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents", authors: "L. Advani",
+    venue: "AAAI 2026 Workshop on Trusted Agents", cites: 4, links: [["arXiv","https://arxiv.org/abs/2601.00513"]] },
+  { year: 2026, tags: ["agents"], title: "Reading the Plan: Multi-Horizon Action Prediction from Frozen LLM Hidden States", authors: "L. Advani",
     venue: "NeurIPS 2026 Workshops", award: "Accepted at 5 of 5 workshops", links: [] },
-  { year: 2023, tags: ["eval"], title: "Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP",
-    venue: "ACL Anthology · with Qualtrics colleagues", links: [["ACL Anthology","https://aclanthology.org/search/?q=Effective+Proxy+for+Human+Labeling"]] }
+  { year: 2026, tags: ["reasoning"], title: "lakshadvani at SemEval-2026 Task 11: A Neuro-Symbolic Approach to Content-Independent Syllogistic Reasoning", authors: "L. Advani",
+    venue: "SemEval 2026", award: "Top 3, Subtask 1", cites: 1, links: [] },
+  { year: 2023, tags: ["eval"], title: "Effective Proxy for Human Labeling: Ensemble Disagreement Scores in Large Language Models for Industrial NLP", authors: "W. Du, L. Advani, Y. Gambhir, D. Perry, P. Shiralkar, Z. Xing, A. Colak",
+    venue: "GEM Workshop @ EMNLP 2023", cites: 2, links: [["ACL Anthology","https://aclanthology.org/search/?q=Effective+Proxy+for+Human+Labeling"]] },
+  { year: 2020, tags: [], title: "C1 at SemEval-2020 Task 9: SentiMix: Sentiment Analysis for Code-Mixed Social Media Text Using Feature Engineering", authors: "L. Advani, C. Lu, S. Maharjan",
+    venue: "SemEval 2020 @ COLING", cites: 9, links: [["ACL Anthology","https://aclanthology.org/search/?q=C1+at+SemEval-2020+Task+9"]] }
 ];
 
 /* Put image files in a photos/ folder next to this page and fill in src + caption. */
@@ -661,17 +731,19 @@ const PHOTOS = [
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const pubsEl = document.getElementById("pubs");
 function renderPubs(filter){
-  const list = PUBS.filter(p => filter === "all" || p.tags.includes(filter)).sort((a,b) => b.year - a.year);
+  const list = PUBS.filter(p => filter === "all" || p.tags.includes(filter)).sort((a,b) => b.year - a.year || (b.cites || 0) - (a.cites || 0));
   pubsEl.innerHTML = list.map(p => `
     <li class="pub">
       <div class="yr">${p.year}</div>
       <div>
         <h3>${esc(p.title)}</h3>
+        <div class="authors">${esc(p.authors || "").replace("L. Advani", "<b>L. Advani</b>")}</div>
         <div class="venue">${esc(p.venue)}</div>
         <div class="meta">
           ${p.status ? `<span class="status">● ${esc(p.status)}</span>` : ""}
           ${p.award ? `<span class="award">${esc(p.award)}</span>` : ""}
           ${p.note ? `<span>${esc(p.note)}</span>` : ""}
+          ${p.cites ? `<span class="cites">Cited by ${p.cites}</span>` : ""}
           ${p.links.map(([t,u]) => `<a href="${esc(u)}">${esc(t)} ↗</a>`).join("")}
         </div>
       </div>
@@ -725,32 +797,29 @@ document.querySelectorAll(".copy-email").forEach(btn => btn.addEventListener("cl
   try { navigator.clipboard.writeText(EMAIL).then(() => flash("Email copied · " + EMAIL)).catch(fail); } catch (_) { fail(); }
 }));
 
-/* Figure 1: place the trace */
-(() => {
-  const fig = document.getElementById("fig1");
-  fig.insertBefore(document.getElementById("trace-src").content.cloneNode(true), fig.firstChild);
-})();
 
 /* laksh-1bit core: SimHash (256-bit) retrieval over a small knowledge base. */
 const KB = [
   { id: "greet", q: ["hi", "hello", "hey there", "good morning", "yo whats up"], a: "Hi! I'm laksh-1bit, a tiny model that only knows about Laksh. Ask about his research, work, papers, reading or travels." },
-  { id: "who", q: ["who are you", "who is he", "who is laksh", "tell me about laksh", "introduce yourself", "about him summary", "introduce him bio"], a: "Laksh Advani is a Staff Applied Scientist at ServiceNow in Seattle with 8+ years in applied ML. He works on making LLM agents reliable enough to trust in production." },
+  { id: "who", q: ["who are you", "who is he", "who is laksh", "tell me about laksh", "introduce yourself", "about him summary", "introduce him bio"], a: "Laksh Advani is a Staff Applied Scientist at ServiceNow in Seattle with 8+ years in ML. He works on RL post-training, agent reliability, evaluation and safety." },
   { id: "research", q: ["what does he work on", "what is his research", "research interests", "what problems does he study", "research focus area"], a: "His research asks a simple question: when an agent says a task is done, how do we know it actually is? He studies silent failures, verifying reasoning rather than only answers, and reading an agent's plan from its hidden states before it acts." },
-  { id: "role", q: ["where does he work", "current job", "what is his role title", "servicenow position", "what does he do at servicenow"], a: "He's a Staff Applied Scientist at ServiceNow (2024 to now), building agentic systems, post-training pipelines and inference optimizations." },
-  { id: "prev", q: ["previous job", "before servicenow", "qualtrics", "past experience", "work history career"], a: "From 2021 to 2024 he was at Qualtrics, doing continual pre-training and RLHF of Llama 2 and Mistral 7B. Those models reached GPT-4 parity on internal benchmarks and ran on-prem at 80% lower cost." },
+  { id: "role", q: ["where does he work", "current job", "what is his role title", "servicenow position", "what does he do at servicenow"], a: "He's a Staff Applied Scientist at ServiceNow (since June 2024), working on RL post-training for agents, recovery loops, evaluation harnesses and safety research." },
+  { id: "prev", q: ["previous job", "before servicenow", "qualtrics", "past experience", "work history career"], a: "Before ServiceNow: Qualtrics (2021–2024) moving survey NLP to fine-tuned Llama 2 and Mistral at 95% of GPT-4 quality and 10x lower cost; Capital One Labs (2019–2021) in applied NLP; and Sandia National Labs (2018–2019) building transformers for malware analysis." },
   { id: "edu", q: ["education", "where did he study", "degree", "university college", "masters school", "go to school", "studied cu boulder"], a: "He has an M.S. in Computer Science from the University of Colorado Boulder." },
   { id: "exp", q: ["how many years of experience", "how experienced is he", "years experience worked", "how many years worked", "how long working industry", "seniority level"], a: "8+ years in applied ML, now at Staff level." },
-  { id: "pubs", q: ["publications", "papers", "what has he published", "list of research papers", "google scholar citations"], a: "Highlights: Reading the Plan (accepted at 5 of 5 NeurIPS 2026 workshops), Trajectory Guard and When Small Models Are Right for Wrong Reasons (AAAI 2026 workshops), a top-3 SemEval 2026 system, and two papers under anonymous review. The full list is in Publications below." },
+  { id: "pubs", q: ["publications", "papers", "what has he published", "list of research papers", "google scholar citations", "how many citations"], a: "Seven papers with 58 citations. Highlights: From Confident Closing to Silent Failure (ICML 2026 workshop, 28 citations), Trajectory Guard and Right for Wrong Reasons (AAAI 2026 workshops), and Reading the Plan, accepted at 5 of 5 NeurIPS 2026 workshops. Explore them in the Research section." },
   { id: "rtp", q: ["reading the plan", "hidden states probing", "predict future actions", "neurips workshop paper", "confidence gating"], a: "Reading the Plan predicts an agent's future actions at several horizons from frozen LLM hidden states. Confidence gating cuts LLM calls by 75%. It was accepted at all five NeurIPS 2026 workshops it was submitted to." },
-  { id: "silent", q: ["silent failures", "false success detection", "llm judges", "agent says done but failed", "failure detector classifier"], a: "A silent failure is when an agent reports success it didn't achieve. Catching them, and checking what an agent actually did rather than what it claims, is a core part of his research." },
-  { id: "tg", q: ["trajectory guard", "aaai paper", "agent trajectory guardrails"], a: "Trajectory Guard is one of his two AAAI 2026 workshop papers, on guarding agent trajectories as they run." },
-  { id: "rwr", q: ["right for wrong reasons", "small models reasoning", "process verification", "verify reasoning not answers"], a: "When Small Models Are Right for Wrong Reasons (AAAI 2026 workshop) is about verifying the reasoning process, not only the final answer." },
+  { id: "silent", q: ["silent failures", "false success detection", "llm judges", "agent says done but failed", "failure detector classifier", "confident closing paper", "icml paper"], a: "From Confident Closing to Silent Failure (ICML 2026 workshop) studies agents that claim success when the task failed. Across 11,755 trajectories, no LLM-judge setup tops 0.65 AUROC, while cheap TF-IDF detectors reach 0.83 to 0.95 with 3,300x lower latency." },
+  { id: "tg", q: ["trajectory guard", "aaai paper", "agent trajectory guardrails", "anomaly detection agents"], a: "Trajectory Guard (AAAI 2026 workshop) is a lightweight sequence model that flags anomalies in agent trajectories in real time: F1 0.88 to 0.94 vs at most 0.69 for unsupervised baselines, at 32 ms and 17 to 27x faster than LLM judges." },
+  { id: "rwr", q: ["right for wrong reasons", "small models reasoning", "process verification", "verify reasoning not answers"], a: "When Small Models Are Right for Wrong Reasons (AAAI 2026 workshop) found that 50 to 69% of correct answers from 7 to 9B models had flawed reasoning. Retrieval helped, self-critique hurt, and a distilled verifier reached 0.86 F1 at 100x the speed." },
   { id: "semeval", q: ["semeval", "syllogistic reasoning", "neuro symbolic system", "logic competition shared task"], a: "For SemEval-2026 Task 11 he built a neuro-symbolic system: an LLM translates arguments into abstract form, then a symbolic check decides validity. It placed top 3 on Subtask 1." },
   { id: "review2", q: ["papers under review", "submissions", "aamas paper", "naacl paper", "upcoming papers"], a: "He has two papers under anonymous review, at NAACL 2027 and AAMAS 2027. Their details stay off this site until decisions are out." },
-  { id: "itsm", q: ["projects", "itsm agent", "agentic system built", "it service management tickets", "what has he built shipped"], a: "His main production work is agentic systems for IT service management that resolve requests end to end." },
-  { id: "post", q: ["rlhf", "post training", "dpo ppo pipelines", "preference optimization", "fine tuning qlora"], a: "He builds post-training pipelines for large language models, including DPO, PPO and QLoRA fine-tuning." },
-  { id: "inf", q: ["inference optimization", "vllm serving", "speculative decoding", "kv cache", "latency and serving cost"], a: "On inference he works with vLLM serving, speculative decoding and KV-cache optimization." },
-  { id: "skills", q: ["skills", "tech stack", "tools he uses", "expertise strengths", "what is he good at"], a: "Core areas: LLM agents, evaluation and LLM-as-judge, RLHF and preference optimization (DPO, PPO, QLoRA), and efficient inference (vLLM, speculative decoding, KV cache)." },
+  { id: "itsm", q: ["projects", "itsm agent", "agentic system built", "it service management tickets", "what has he built shipped"], a: "Production work includes RL post-training for an agent orchestrator, a recovery loop for long-horizon agents, an overnight eval harness used across his org, and safety tripwires for sensitive data. Production details stay general on this site." },
+  { id: "post", q: ["rlhf", "post training", "dpo ppo pipelines", "preference optimization", "fine tuning qlora", "grpo rlvr", "does he know grpo", "grpo", "reinforcement learning", "process reward model"], a: "He builds RL post-training for agents: RL environments, weighted verifiers and a turn-level process reward model, going from KTO warm-starts to online GRPO. He also works with DPO, PPO, RLAIF and LoRA/QLoRA." },
+  { id: "inf", q: ["inference optimization", "vllm serving", "speculative decoding", "kv cache", "latency and serving cost"], a: "On efficiency he works with distillation, quantization and vLLM serving, and several of his papers are about making checks fast enough to run inline." },
+  { id: "capone", q: ["capital one", "capital one labs", "summarization", "code mixed sentiment"], a: "At Capital One Labs (2019–2021) he led a summarization launch and lifted code-mixed sentiment F1 from 35% to 45%, published at SemEval 2020." },
+  { id: "sandia", q: ["sandia", "sandia work", "sandia national labs", "national lab research", "malware analysis", "security ml"], a: "At Sandia National Labs (2018–2019) he built seq2seq transformers for automated malware analysis, cutting latency 10x." },
+  { id: "skills", q: ["skills", "tech stack", "tools he uses", "expertise strengths", "what is he good at", "hire him", "is he a good fit"], a: "Post-training (RLVR, GRPO, KTO, DPO, PPO, process reward models), agentic systems and evals (multi-agent orchestration, tool-use RL environments, LLM-as-a-judge, MCP, LangGraph) and infrastructure (PyTorch, TorchTitan, DeepSpeed, Kubernetes, AWS)." },
   { id: "review", q: ["reviewer", "reviewing service", "program committee", "academic service"], a: "He has reviewed for the NeurIPS 2026 IAB and Verify-Agents workshops and the ICML 2026 FAGEN workshop." },
   { id: "reading", q: ["what is he reading", "current book", "reading list", "favorite books", "paper he is reading"], a: "Right now: the Meta² paper on online harness evolution for long-horizon agents, and The Law of the Sublime by Robert Greene." },
   { id: "photo", q: ["photography", "photos camera", "hobbies", "what does he do for fun", "free time hiking mountains"], a: "Off hours he photographs mountains, coastlines and cities, with a lot of Mount Rainier at golden hour and blue hour. There are 17 shots in the Photography section." },
@@ -1155,116 +1224,207 @@ const LIMIT = 86;
   }));
 })();
 
-/* Agent activity: a simulated, clearly labelled feed of three fictional agents using this site's tools */
+/* Research explorer: featured papers with interactive figures. Every number comes from the papers' abstracts. */
 (() => {
-  const root = document.getElementById("alien"); if (!root) return;
-  const cv = document.getElementById("al-radar"), comms = document.getElementById("al-comms"), pings = document.getElementById("al-pings"), clock = document.getElementById("al-clock");
+  const tabs = document.getElementById("rx-tabs"), panel = document.getElementById("rx-panel"); if (!tabs) return;
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const GLY = "⏃⏚☊⎅⟒⎎☌⊑⟟⟊☍⌰⋔⋏⍜⌿⍾⍀⌇⏁⎍⎐⍙⌖⊬⋉".split("");
-  const MINT = "124,255,217", VIO = "180,140,255", AMB = "255,190,90";
-  const AG = [
-    { k: "α", name: "agent·α", role: "research scout", col: MINT, a: 0 },
-    { k: "β", name: "agent·β", role: "talent scout", col: VIO, a: 2.09 },
-    { k: "γ", name: "agent·γ", role: "index crawler", col: AMB, a: 4.19 }
+  const NS = "http://www.w3.org/2000/svg";
+  let stopAnim = null, cur = 0, lastW = 0;
+  const fw = box => Math.round(Math.max(320, Math.min(520, box.clientWidth || 520)));
+
+  const PAPERS = [
+    { key: "silent", short: "Silent failure", venue: "ICML 2026 · Failure Modes in Agentic AI",
+      title: "From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents",
+      tldr: "Agents often say a task is done when the environment shows it isn't. Across 11,755 trajectories from τ²-bench and AppWorld, no LLM-judge setup tops 0.65 AUROC at catching this. Judges read confident wording and how busy the agent looked, not the end state. Cheap text detectors do much better.",
+      stats: [["0.83 / 0.95", "detector AUROC, τ²-bench / AppWorld"], ["4–8×", "more false successes caught at the same flag rate"], ["3,300×", "lower latency than LLM judges"]],
+      cites: 28, link: ["arXiv", "https://arxiv.org/abs/2606.09863"], fig: figSilent },
+    { key: "tg", short: "Trajectory Guard", venue: "AAAI 2026 · Workshop on Trusted Agents",
+      title: "Trajectory Guard: A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI",
+      tldr: "A small sequence model that reads an agent's trajectory step by step and flags anomalies as they happen. Unsupervised detectors on pre-trained embeddings miss most of them; Trajectory Guard catches them fast enough to run inline.",
+      stats: [["0.88–0.94", "F1 on balanced sets, vs ≤ 0.69 for baselines"], ["32 ms", "inference latency"], ["17–27×", "faster than LLM-judge baselines"]],
+      cites: 14, link: ["arXiv", "https://arxiv.org/abs/2601.00516"], fig: figTG },
+    { key: "rwr", short: "Right for wrong reasons", venue: "AAAI 2026 · Workshop on Trusted Agents",
+      title: "When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents",
+      tldr: "For 7–9B models, a correct answer often hides broken reasoning. Across 10,734 reasoning traces, the paper scores reasoning integrity, finds that retrieval helps while self-critique hurts, and distills the check into a fast classifier.",
+      stats: [["50–69%", "of correct answers had flawed reasoning"], ["κ 0.657", "inter-rater agreement on the integrity score"], ["0.86 F1", "distilled verifier, 100× faster"]],
+      cites: 4, link: ["arXiv", "https://arxiv.org/abs/2601.00513"], fig: figRWR },
+    { key: "rtp", short: "Reading the Plan", venue: "NeurIPS 2026 Workshops · accepted at 5 of 5",
+      title: "Reading the Plan: Multi-Horizon Action Prediction from Frozen LLM Hidden States",
+      tldr: "An agent's upcoming actions can be read from its hidden states before it acts. Lightweight probes predict actions at several horizons, and confidence gating lets the agent skip the LLM call whenever the probe is sure.",
+      stats: [["75%", "fewer LLM calls with confidence gating"], ["5 of 5", "NeurIPS 2026 workshops accepted it"]],
+      cites: null, link: null, fig: figRTP }
   ];
-  const S = [
-    { f: 0, say: "new signal: laksh-advani. requesting identity." },
-    { f: 0, tool: "get_profile", res: "Staff Applied Scientist · ServiceNow · agent reliability" },
-    { f: 1, say: "cross-check publications, filter on agents." },
-    { f: 1, tool: "list_publications", args: '{"topic":"agents"}', res: "3 items · Reading the Plan accepted 5/5" },
-    { f: 2, say: "verification research noted. cross-referencing papers." },
-    { f: 2, tool: "list_projects", res: "6 items · agents, verification, post-training" },
-    { f: 0, tool: "get_reading", res: "Meta² · The Law of the Sublime" },
-    { f: 1, say: "subject photographs mountains. irrelevant. also excellent." },
-    { f: 2, tool: "get_places", res: "6 countries · 2 continents" },
-    { f: 1, tool: "get_contact", res: "laksh.edu@gmail.com" },
-    { f: 2, tool: "tools/list", res: "6 tools available" },
-    { f: 0, say: "consensus reached: worth a conversation." }
-  ];
-  let ctx, W = 0, H = 0, step = 0, packets = [], flashes = [], running = true, last = 0;
-  const now = () => performance.now();
-  const ts = () => new Date().toTimeString().slice(0, 8);
 
-  function fit(){ const r = cv.getBoundingClientRect(), d = Math.min(devicePixelRatio || 1, 2); W = r.width; H = r.height; cv.width = W * d; cv.height = H * d; ctx = cv.getContext("2d"); ctx.setTransform(d, 0, 0, d, 0, 0); draw(now()); }
-  function pos(i, t){ const a = AG[i].a + (reduce ? 0 : t * .00012), R = Math.min(W, H) * .36; return [W / 2 + Math.cos(a) * R, H / 2 + Math.sin(a) * R * .82]; }
+  const el = (tag, attrs = {}, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+  const txt = (parent, x, y, s, cls, anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }, parent); t.textContent = s; return t; };
+  function svgBox(w, h, label){ const s = el("svg", { viewBox: `0 0 ${w} ${h}`, class: "rx-svg", role: "img", "aria-label": label }); return s; }
+  function seg(holder, opts, onPick, id){
+    const g = document.createElement("div"); g.className = "rx-seg"; g.setAttribute("role", "group");
+    opts.forEach(([v, label], i) => { const b = document.createElement("button"); b.type = "button"; b.id = `${id}-${v}`; b.textContent = label; b.setAttribute("aria-pressed", String(i === 0));
+      b.addEventListener("click", () => { g.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b))); onPick(v); }); g.appendChild(b); });
+    holder.appendChild(g); return g;
+  }
+  function grow(rect, w){ if (reduce) { rect.setAttribute("width", w); return; } rect.setAttribute("width", 0); requestAnimationFrame(() => { rect.style.transition = "width .7s cubic-bezier(.2,.7,.2,1)"; rect.setAttribute("width", w); }); }
 
-  function hex(x, y, r){ ctx.beginPath(); for (let k = 0; k < 6; k++) { const a = Math.PI / 6 + k * Math.PI / 3; k ? ctx.lineTo(x + r * Math.cos(a), y + r * Math.sin(a)) : ctx.moveTo(x + r * Math.cos(a), y + r * Math.sin(a)); } ctx.closePath(); }
-  function draw(t){
-    if (!W) return;
-    ctx.globalCompositeOperation = "source-over";
-    const bg = ctx.createRadialGradient(W / 2, H / 2, 10, W / 2, H / 2, Math.max(W, H) * .7);
-    bg.addColorStop(0, "#0E2A2C"); bg.addColorStop(1, "#050E12"); ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H);
-    const cx = W / 2, cy = H / 2, R = Math.min(W, H) * .44;
-    // rings and hex grid
-    ctx.strokeStyle = `rgba(${MINT},.10)`; ctx.lineWidth = 1;
-    for (let k = 1; k <= 4; k++) { ctx.beginPath(); ctx.ellipse(cx, cy, R * k / 4, R * k / 4 * .82, 0, 0, 6.283); ctx.stroke(); }
-    ctx.setLineDash([2, 6]); ctx.beginPath(); ctx.moveTo(cx - R, cy); ctx.lineTo(cx + R, cy); ctx.moveTo(cx, cy - R * .82); ctx.lineTo(cx, cy + R * .82); ctx.stroke(); ctx.setLineDash([]);
-    // radar sweep
-    if (!reduce) { const a = (t / 2200) % 6.283; ctx.globalCompositeOperation = "lighter";
-      const g = ctx.createConicGradient ? ctx.createConicGradient(a - .6, cx, cy) : null;
-      if (g) { g.addColorStop(0, `rgba(${MINT},0)`); g.addColorStop(.09, `rgba(${MINT},.16)`); g.addColorStop(.1, `rgba(${MINT},0)`); ctx.fillStyle = g; ctx.beginPath(); ctx.ellipse(cx, cy, R, R * .82, 0, 0, 6.283); ctx.fill(); }
+  /* Paper 1: judges vs detectors */
+  function figSilent(box){
+    const ctl = document.createElement("div"); ctl.className = "rx-ctl"; box.appendChild(ctl);
+    const stage = document.createElement("div"); box.appendChild(stage);
+    const D = {
+      tau: { name: "τ²-bench", n: "9,876 trajectories · 8 model families", judge: .65, judgeLab: "≤ 0.65", det: .83,
+        share: [["Single-control domains", .45, .48, "45–48%", "Single-control"], ["Dual-control telecom", .03, .03, "3%", "Telecom (dual)"]] },
+      app: { name: "AppWorld", n: "1,879 trajectories · 4 model families", judge: .54, judgeLab: "0.54", det: .95,
+        share: [["Self-assessing coding agents with status claims", .758, .758, "75.8%", "Coding agents"]] }
+    };
+    function results(k){
+      const d = D[k]; stage.innerHTML = "";
+      const W = fw(box), H = 250, narrow = W < 450, x0 = narrow ? 104 : 150, x1 = W - 60, sx = v => x0 + (v - .5) / .5 * (x1 - x0);
+      const s = svgBox(W, H, `${d.name}: best LLM judge AUROC ${d.judgeLab}, text detector AUROC ${d.det}`);
+      txt(s, 0, 16, "Catching false success (AUROC)", "rx-h");
+      txt(s, 0, 32, d.n, "rx-sub");
+      (narrow ? [.5, .75, 1] : [.5, .6, .7, .8, .9, 1]).forEach(v => { el("line", { x1: sx(v), x2: sx(v), y1: 46, y2: 132, class: v === .5 ? "rx-chance" : "rx-grid" }, s); txt(s, sx(v), 148, v.toFixed(1), "rx-tick", "middle"); });
+      txt(s, sx(.5) + 4, 54, "chance", "rx-tick");
+      [[narrow ? "Best judge" : "Best LLM judge", d.judge, d.judgeLab, "rx-b-muted"], ["TF-IDF detector", d.det, d.det.toFixed(2), "rx-b-acc"]].forEach(([lab, v, vl, cls], i) => {
+        const y = 62 + i * 36; txt(s, 0, y + 15, lab, "rx-lab");
+        const r = el("rect", { x: sx(.5), y, height: 22, rx: 5, class: cls }, s); grow(r, sx(v) - sx(.5));
+        txt(s, sx(v) + 8, y + 15, vl, "rx-val");
+      });
+      txt(s, 0, 180, "Share of failures that are false success", "rx-h");
+      d.share.forEach(([lab, lo, hi, vl, shortLab], i) => {
+        const y = 192 + i * 28, bx = x0, bw = W - x0 - 60; el("rect", { x: bx, y, width: bw, height: 16, rx: 4, class: "rx-track" }, s);
+        const r = el("rect", { x: bx, y, height: 16, rx: 4, class: "rx-b-fail" }, s); grow(r, Math.max(3, bw * hi));
+        txt(s, 0, y + 12, narrow ? shortLab : (lab.length > 24 ? lab.slice(0, 22) + "…" : lab), "rx-lab").appendChild(Object.assign(document.createElementNS(NS, "title"), { textContent: lab }));
+        txt(s, bx + Math.max(3, bw * hi) + 8, y + 12, vl, "rx-val");
+      });
+      stage.appendChild(s);
     }
-    ctx.globalCompositeOperation = "lighter";
-    // links
-    AG.forEach((_, i) => { const [x, y] = pos(i, t); const fl = flashes.find(f => f.i === i && t - f.t < 900);
-      ctx.strokeStyle = `rgba(${AG[i].col},${fl ? .55 * (1 - (t - fl.t) / 900) + .1 : .1})`; ctx.lineWidth = fl ? 1.6 : 1; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(cx, cy); ctx.stroke(); });
-    // server core
-    const beat = reduce ? 1 : .75 + .25 * Math.sin(t / 300);
-    const cg = ctx.createRadialGradient(cx, cy, 0, cx, cy, 34); cg.addColorStop(0, `rgba(${MINT},${.45 * beat})`); cg.addColorStop(1, `rgba(${MINT},0)`); ctx.fillStyle = cg; ctx.beginPath(); ctx.arc(cx, cy, 34, 0, 6.283); ctx.fill();
-    ctx.strokeStyle = `rgba(${MINT},.8)`; ctx.lineWidth = 1.2; hex(cx, cy, 13); ctx.stroke(); hex(cx, cy, 6); ctx.fillStyle = `rgba(${MINT},.9)`; ctx.fill();
-    // packets
-    packets = packets.filter(p => t - p.t < p.d);
-    packets.forEach(p => { const k = (t - p.t) / p.d, e = k < .5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
-      const a = p.from(t), b = p.to(t), x = a[0] + (b[0] - a[0]) * e, y = a[1] + (b[1] - a[1]) * e;
-      const gg = ctx.createRadialGradient(x, y, 0, x, y, 9); gg.addColorStop(0, `rgba(${p.col},.95)`); gg.addColorStop(1, `rgba(${p.col},0)`); ctx.fillStyle = gg; ctx.beginPath(); ctx.arc(x, y, 9, 0, 6.283); ctx.fill(); });
-    // agents
-    AG.forEach((ag, i) => { const [x, y] = pos(i, t), fl = flashes.find(f => f.i === i && t - f.t < 900), r = fl ? 22 : 15;
-      const gg = ctx.createRadialGradient(x, y, 0, x, y, r); gg.addColorStop(0, `rgba(${ag.col},.5)`); gg.addColorStop(1, `rgba(${ag.col},0)`); ctx.fillStyle = gg; ctx.beginPath(); ctx.arc(x, y, r, 0, 6.283); ctx.fill();
-      ctx.strokeStyle = `rgba(${ag.col},.9)`; ctx.lineWidth = 1.2; hex(x, y, 8); ctx.stroke();
-      ctx.globalCompositeOperation = "source-over";
-      ctx.font = `600 11px "SF Mono", "JetBrains Mono", ui-monospace, monospace`; ctx.fillStyle = `rgb(${ag.col})`; ctx.textAlign = "center"; ctx.fillText(ag.k, x, y + 4);
-      ctx.font = `500 9px "SF Mono", "JetBrains Mono", ui-monospace, monospace`; ctx.fillStyle = `rgba(${ag.col},.7)`; ctx.fillText(ag.role.toUpperCase(), x, y + 26);
-      ctx.globalCompositeOperation = "lighter"; });
-    ctx.globalCompositeOperation = "source-over";
-    ctx.font = `500 9px "SF Mono", "JetBrains Mono", ui-monospace, monospace`; ctx.fillStyle = `rgba(${MINT},.75)`; ctx.textAlign = "center"; ctx.fillText("LAKSH-ADVANI · MCP", cx, cy + 30); ctx.textAlign = "left";
+    function example(){
+      stage.innerHTML = "";
+      const t = document.getElementById("trace-src"); if (t) stage.appendChild(t.content.cloneNode(true));
+      const c = document.createElement("p"); c.className = "rx-cap"; c.textContent = "Illustrative trajectory. The restart fails, yet the agent closes with a confident success message. A judge reading the transcript tends to believe it; checking the end state shows it failed.";
+      stage.appendChild(c);
+    }
+    seg(ctl, [["tau", "τ²-bench"], ["app", "AppWorld"], ["ex", "Example"]], v => v === "ex" ? example() : results(v), "rx-sf");
+    results("tau");
   }
 
-  function decode(el, text){
-    if (reduce) { el.textContent = text; return; }
-    const t0 = now(), dur = 520;
-    const tick = () => { const k = Math.min(1, (now() - t0) / dur), n = Math.floor(k * text.length);
-      el.textContent = text.slice(0, n) + text.slice(n).replace(/\S/g, () => GLY[(Math.random() * GLY.length) | 0]);
-      if (k < 1) requestAnimationFrame(tick); };
-    tick();
-  }
-  function push(box, html, cls){ const d = document.createElement("div"); d.className = "al-line " + (cls || ""); d.innerHTML = html; box.appendChild(d); while (box.children.length > 4) box.firstChild.remove(); return d; }
-  function emit(){
-    const e = S[step % S.length], ag = AG[e.f], i = e.f; step++;
-    const t = now(); flashes.push({ i, t }); flashes = flashes.filter(f => t - f.t < 1000);
-    const P = (j) => (tt) => pos(j, tt), C = () => [W / 2, H / 2];
-    if (e.say) {
-      const j = (i + 1 + (step % 2)) % 3; packets.push({ from: P(i), to: P(j), t, d: 900, col: ag.col });
-      const line = push(comms, `<span class="al-who" style="color:rgb(${ag.col})">${ag.name}</span> <span class="al-to">→ ${AG[j].name}</span> <span class="al-msg"></span>`);
-      decode(line.querySelector(".al-msg"), e.say);
-    } else {
-      packets.push({ from: P(i), to: C, t, d: 600, col: ag.col });
-      const ms = 18 + Math.round(Math.random() * 60);
-      setTimeout(() => {
-        packets.push({ from: C, to: P(i), t: now(), d: 600, col: MINT });
-        push(pings, `<span class="al-ts">${ts()}</span> <span style="color:rgb(${ag.col})">${ag.k}</span> tools/call <b>${esc(e.tool)}</b>${e.args ? ` <span class="al-args">${esc(e.args)}</span>` : ""} <span class="al-ok">200 · ${ms}ms</span>`);
-        const line = push(comms, `<span class="al-who" style="color:rgb(${MINT})">laksh-advani</span> <span class="al-to">→ ${ag.name}</span> <span class="al-msg"></span>`, "srv");
-        decode(line.querySelector(".al-msg"), e.res);
-      }, reduce ? 0 : 650);
+  /* Paper 2: live anomaly stream (illustration) + F1 */
+  function figTG(box){
+    const cv = document.createElement("canvas"); cv.className = "rx-cv"; cv.setAttribute("role", "img"); cv.setAttribute("aria-label", "Illustration: an anomaly score tracks each agent step and flags a spike in real time"); box.appendChild(cv);
+    const cap = document.createElement("p"); cap.className = "rx-cap"; cap.textContent = "Illustration: each dot is an agent step, and the line is the anomaly score. A spike over the threshold gets flagged inline."; box.appendChild(cap);
+    const W = fw(box), H = 120, narrow = W < 450, s = svgBox(W, H, "F1: unsupervised baselines at most 0.69; Trajectory Guard 0.88 to 0.94");
+    const x0 = narrow ? 104 : 150, x1 = W - 80, sx = v => x0 + v * (x1 - x0);
+    txt(s, 0, 16, "Anomaly detection F1 (balanced sets)", "rx-h");
+    (narrow ? [0, .5, 1] : [0, .25, .5, .75, 1]).forEach(v => { el("line", { x1: sx(v), x2: sx(v), y1: 28, y2: 96, class: "rx-grid" }, s); txt(s, sx(v), 112, v.toFixed(2).replace(/0$/, ""), "rx-tick", "middle"); });
+    txt(s, 0, 47, narrow ? "Baselines" : "Unsupervised baselines", "rx-lab"); const r1 = el("rect", { x: sx(0), y: 33, height: 20, rx: 5, class: "rx-b-muted" }, s); grow(r1, sx(.69) - sx(0)); txt(s, sx(.69) + 8, 47, "≤ 0.69", "rx-val");
+    txt(s, 0, 81, "Trajectory Guard", "rx-lab"); const r2 = el("rect", { x: sx(0), y: 67, height: 20, rx: 5, class: "rx-b-acc" }, s); grow(r2, sx(.94) - sx(0));
+    el("rect", { x: sx(.88), y: 67, width: sx(.94) - sx(.88), height: 20, class: "rx-b-range" }, s); txt(s, sx(.94) + 8, 81, "0.88–0.94", "rx-val");
+    box.appendChild(s);
+    const ctx = cv.getContext("2d"), css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+    const ACC = css("--accent"), FAIL = css("--fail"), MUT = css("--muted"), LINE = css("--line");
+    let w = 0, h = 0, pts = [], t0 = performance.now(), nextAnom = 2200, flagAt = -1e9, raf = 0, alive = true;
+    for (let i = 0; i < 18; i++) pts.push({ t: (i - 18) * 22 * 34, v: i === 9 ? .88 : .12 + ((i * 37) % 23) / 100, a: i === 9, flagged: true });
+    const fit = () => { const r = cv.getBoundingClientRect(), d = Math.min(devicePixelRatio || 1, 2); w = r.width; h = r.height; cv.width = w * d; cv.height = h * d; ctx.setTransform(d, 0, 0, d, 0, 0); };
+    const ro = new ResizeObserver(fit); ro.observe(cv); fit();
+    const step = 34, th = .72;
+    function frame(now){
+      if (!alive) return;
+      const el2 = now - t0, off = reduce ? 0 : (el2 / 22) % step;
+      if (!reduce && (pts.length === 0 || el2 - pts[pts.length - 1].t > 22 * step)) {
+        const anom = el2 > nextAnom; if (anom) { nextAnom = el2 + 3200 + Math.random() * 1800; }
+        pts.push({ t: el2, v: anom ? .82 + Math.random() * .12 : .12 + Math.random() * .22, a: anom });
+        if (pts.length > 40) pts.shift();
+      }
+      if (false) for (let i = 0; i < 16; i++) pts.push({ t: 0, v: i === 11 ? .9 : .15 + (i % 3) * .07, a: i === 11 });
+      ctx.clearRect(0, 0, w, h);
+      const base = h - 26, top = 14, yv = v => base - v * (base - top);
+      ctx.strokeStyle = LINE; ctx.setLineDash([4, 4]); ctx.beginPath(); ctx.moveTo(0, yv(th)); ctx.lineTo(w, yv(th)); ctx.stroke(); ctx.setLineDash([]);
+      ctx.fillStyle = MUT; ctx.font = `500 10px ${getComputedStyle(document.body).fontFamily}`; ctx.fillText("threshold", 4, yv(th) - 5);
+      const n = pts.length, xs = i => w - 30 - (n - 1 - i) * step - off;
+      ctx.strokeStyle = ACC; ctx.lineWidth = 2; ctx.beginPath(); pts.forEach((p, i) => { const x = xs(i), y = yv(p.v); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.stroke();
+      pts.forEach((p, i) => { const x = xs(i); if (x < -10) return;
+        ctx.beginPath(); ctx.arc(x, base + 12, 4, 0, 6.283); ctx.fillStyle = p.a ? FAIL : "#C7CBD3"; ctx.fill();
+        if (p.a) { ctx.beginPath(); ctx.arc(x, yv(p.v), 5, 0, 6.283); ctx.fillStyle = FAIL; ctx.fill();
+          if (!p.flagged && x < w - 40) { p.flagged = true; flagAt = now; }
+          ctx.fillStyle = FAIL; ctx.font = `600 11px ${getComputedStyle(document.body).fontFamily}`; ctx.fillText("flagged · 32 ms", Math.min(x + 8, w - 96), yv(p.v) - 8); } });
+      if (!reduce) raf = requestAnimationFrame(frame);
     }
-    if (step % 4 === 0) push(pings, `<span class="al-ts">${ts()}</span> <span class="al-hb">◆ heartbeat</span> ${AG[step % 3].k} · ${8 + (step * 7) % 20}ms`, "hb");
+    raf = requestAnimationFrame(frame);
+    stopAnim = () => { alive = false; cancelAnimationFrame(raf); ro.disconnect(); };
   }
-  function loop(t){
-    if (running) { draw(t); clock.textContent = ts(); if (t - last > 2400) { last = t; emit(); } }
-    requestAnimationFrame(loop);
+
+  /* Paper 3: waffle + effect sizes */
+  function figRWR(box){
+    const ctl = document.createElement("div"); ctl.className = "rx-ctl"; box.appendChild(ctl);
+    const wrap = document.createElement("div"); box.appendChild(wrap);
+    const W = fw(box), narrow = W < 450, cols = narrow ? 10 : 20, rows = 100 / cols, wh = rows * 17, ly = 28 + wh + 14, ey = ly + 42;
+    const H = ey + 154, s = svgBox(W, H, "Waffle of 100 correct answers and effect sizes of RAG and self-critique on reasoning integrity"); wrap.appendChild(s);
+    txt(s, 0, 16, "Out of 100 correct answers…", "rx-h");
+    const cells = []; for (let i = 0; i < 100; i++) cells.push(el("rect", { x: (i % cols) * 17, y: 28 + Math.floor(i / cols) * 17, width: 14, height: 14, rx: 3, class: "rx-ok" }, s));
+    const bx = cols * 17 + 18, big = txt(s, bx, 70, "50", "rx-big"); txt(s, bx, 90, "had flawed reasoning", "rx-sub"); txt(s, bx, 106, "despite the right answer", "rx-sub");
+    const lk = el("g", {}, s); el("rect", { x: 0, y: ly - 9, width: 10, height: 10, rx: 2, class: "rx-bad" }, lk); txt(lk, 16, ly, "flawed reasoning", "rx-tick");
+    el("rect", { x: 130, y: ly - 9, width: 10, height: 10, rx: 2, class: "rx-ok" }, lk); txt(lk, 146, ly, "sound reasoning", "rx-tick");
+    function set(n){ big.textContent = n; cells.forEach((c, i) => { const bad = i < n; if (!reduce) c.style.transition = `fill .3s ${i * 4}ms`; c.setAttribute("class", bad ? "rx-bad" : "rx-ok"); }); }
+    seg(ctl, [["50", "Low end · 50%"], ["69", "High end · 69%"]], v => set(+v), "rx-rw");
+    set(50);
+    txt(s, 0, ey, "Effect on reasoning integrity (Cohen's d)", "rx-h");
+    const x0 = narrow ? 92 : 150, x1 = W - (narrow ? 70 : 100), sx = v => x0 + (v + .5) / 1.5 * (x1 - x0);
+    [-.5, 0, .5, 1].forEach(v => { el("line", { x1: sx(v), x2: sx(v), y1: ey + 12, y2: ey + 92, class: v === 0 ? "rx-chance" : "rx-grid" }, s); txt(s, sx(v), ey + 108, (v > 0 ? "+" : "") + v, "rx-tick", "middle"); });
+    [[narrow ? "RAG" : "Retrieval (RAG)", .23, .93, narrow ? "+0.23–0.93" : "+0.23 to +0.93", "rx-b-acc"], [narrow ? "Critique" : "Self-critique", -.33, -.14, narrow ? "−0.33–0.14" : "−0.33 to −0.14", "rx-b-fail"]].forEach(([lab, lo, hi, vl, cls], i) => {
+      const y = ey + 20 + i * 36; txt(s, 0, y + 15, lab, "rx-lab");
+      el("rect", { x: sx(lo), y, width: sx(hi) - sx(lo), height: 22, rx: 5, class: cls }, s);
+      txt(s, hi > 0 ? sx(hi) + 8 : (narrow ? sx(0) + 6 : sx(lo) - 8), y + 15, vl, "rx-val", hi > 0 || narrow ? "start" : "end");
+    });
+    txt(s, 0, ey + 138, "Ranges span the three models studied.", "rx-sub");
   }
-  new ResizeObserver(fit).observe(cv); fit();
-  for (let k = 0; k < 2; k++) emit();
-  if (!reduce) { new IntersectionObserver(([e]) => { running = e.isIntersecting; }).observe(root); requestAnimationFrame(loop); }
+
+  /* Paper 4: confidence gating (illustration) */
+  function figRTP(box){
+    const conf = [.92, .88, .41, .95, .9, .86, .37, .93];
+    const W = fw(box), narrow = W < 450, H = 250, th = .7, s = svgBox(W, H, "Illustration: probe confidence for eight steps; six exceed the threshold and skip the LLM, two call it");
+    txt(s, 0, 16, "Probe confidence at each agent step", "rx-h");
+    const base = 170, top = 40, yv = v => base - v * (base - top), gx = 0, gap = narrow ? 6 : 10, cw = Math.floor((W - 44 - 7 * gap) / 8);
+    el("line", { x1: 0, x2: W, y1: yv(th), y2: yv(th), class: "rx-chance" }, s); txt(s, W, yv(th) + 4, "gate", "rx-tick", "end");
+    const marks = conf.map((c, i) => {
+      const x = gx + i * (cw + gap), g = el("g", { opacity: reduce ? 1 : .25 }, s), ok = c >= th;
+      el("rect", { x, y: base - 0, width: cw, height: 0, rx: 5, class: ok ? "rx-b-acc" : "rx-b-warn" }, g).setAttribute("height", base - yv(c));
+      g.lastChild.setAttribute("y", yv(c));
+      txt(g, x + cw / 2, base + 18, narrow ? `${i + 1}` : `step ${i + 1}`, "rx-tick", "middle");
+      txt(g, x + cw / 2, base + 34, ok ? "skip" : (narrow ? "LLM" : "call LLM"), ok ? "rx-tag-ok" : "rx-tag-warn", "middle");
+      return g;
+    });
+    const sum = txt(s, 0, 234, "", "rx-lab");
+    box.appendChild(s);
+    const cap = document.createElement("p"); cap.className = "rx-cap"; cap.textContent = "Illustration of the gating idea: when the probe is confident, the agent acts without an LLM call. In the paper, gating cut LLM calls by 75%."; box.appendChild(cap);
+    let i = 0, timer = null, alive = true;
+    const show = k => { marks.forEach((m, j) => m.setAttribute("opacity", j <= k ? 1 : .25)); const done = conf.slice(0, k + 1), skip = done.filter(c => c >= th).length;
+      sum.textContent = `${skip} of ${done.length} steps skipped the LLM${k === conf.length - 1 ? " · 75% fewer calls" : ""}`; };
+    if (reduce) show(conf.length - 1);
+    else { show(0); timer = setInterval(() => { if (!alive) return; i = (i + 1) % (conf.length + 3); show(Math.min(i, conf.length - 1)); }, 650); }
+    stopAnim = () => { alive = false; clearInterval(timer); };
+  }
+
+  function open(k){
+    if (stopAnim) { stopAnim(); stopAnim = null; }
+    cur = k;
+    const p = PAPERS[k];
+    tabs.querySelectorAll("button").forEach((b, j) => b.setAttribute("aria-selected", String(j === k)));
+    panel.innerHTML = `
+      <div class="rx-text">
+        <div class="rx-venue">${esc(p.venue)}</div>
+        <h3>${esc(p.title)}</h3>
+        <p class="rx-tldr">${esc(p.tldr)}</p>
+        <div class="rx-stats-row">${p.stats.map(([v, l]) => `<div class="rx-stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("")}</div>
+        <div class="rx-links">${p.link ? `<a href="${esc(p.link[1])}">Read the paper ›</a>` : ""}${p.cites ? `<span class="rx-cites">Cited by ${p.cites}</span>` : ""}</div>
+      </div>
+      <div class="rx-fig" id="rx-fig"></div>`;
+    const fig = document.getElementById("rx-fig"); lastW = fw(fig); p.fig(fig);
+  }
+  new ResizeObserver(() => { const f = document.getElementById("rx-fig"); if (f && Math.abs(fw(f) - lastW) > 40) open(cur); }).observe(panel);
+  tabs.innerHTML = PAPERS.map((p, i) => `<button type="button" role="tab" id="rx-tab-${p.key}" aria-controls="rx-panel" aria-selected="${i === 0}"><span class="rx-tv">${esc(p.venue.split(" · ")[0])}</span><span class="rx-tn">${esc(p.short)}</span></button>`).join("");
+  tabs.addEventListener("click", e => { const b = e.target.closest("button"); if (b) open([...tabs.children].indexOf(b)); });
+  tabs.addEventListener("keydown", e => { if (!["ArrowRight", "ArrowLeft"].includes(e.key)) return; const bs = [...tabs.children], cur = bs.findIndex(b => b.getAttribute("aria-selected") === "true"), n = (cur + (e.key === "ArrowRight" ? 1 : -1) + bs.length) % bs.length; open(n); bs[n].focus(); });
+  open(0);
 })();
 
 </script>
